@@ -23,8 +23,10 @@ ahadjixenofontos@miami.edu
 
 @title[A thing I thought I knew]
 
-**Context**:
-A thing I thought I knew.
+> **context**
+> *noun* | con·text
+> 2: the interrelated conditions in which somehting exists or occurs
+
 
 Note:
 We hear the word context a lot. The historical context of the times, quotes being taken out of context, but at least for me, a deeper relationship with the word context didn't develop until I was about 22, and a first year graduate student. 
