@@ -203,17 +203,37 @@ What influences attentional bias? How do you measure it?
 
 +++
 
-Statistical power
-Should really be in design section
+#### Statistical power
+
+... or the probability that you will be able to distinguish between a true effect of a certain size and chance. 
+<br>
+**Exercise:** plot power curves for a two-tailed t-test, using pwr in R
+
+Note:
+Switch to RStudio
 
 +++
 
-Quality control metrics.
-Some of them will flow out of expected/known biases of data collection. 
+#### Quality Control
+
+Identify QC metrics that you will use, ahead of time if possible. 
+<br>
+Think back to our employee engagement example. 
+Do we expect any features of data collection to impact the quality of data that we get? 
+
+Note:
+Rate of missingness is a big one, does it matter for your analysis whether or not you have lots of missing data? Does it indicate that something went wrong with the rest of the data that belongs to that same observation or are all values for that observation independent? 
 
 +++
 
-Database format
+#### Database format
+
+- Data types
+- How categorical variables are split 
+- Being able to easily query it!
+
+Note:
+If you have any say in how the database that receives the data is designed, then use that to help you avoid as much tricky data wrangling as possible. 
 
 ---
 
