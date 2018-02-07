@@ -21,7 +21,7 @@ ahadjixenofontos@miami.edu
 
 ---?image=images/paper.jpeg
 
-@title[A thing I thought I knew]
+@title[Context]
 
 **context**
 <br>
@@ -40,60 +40,80 @@ I'll start with two familiar examples, one is about gender and the other involve
 
 @title[Gender]
 
----?image=images/miami-beach.jpeg
-
----
-
-Context has consequences for the interpretation of an observation. 
-
 Note:
 The first time I realized I didn't actually know what context really is was while volunteering at a local Miami non-profit. They graple with the nuances of context a lot, because their work includes conversations around gender.  
 
 The reason why context is especially important in gender conversations I think is illustrative. 
-In the context of a Catholic monastery in Colombia, deviations from gender norms are understood one way, whereas in the context of a Unitarian church in South Miami, they are understood a different way. 
+In the context of a Catholic monastery in Colombia, deviations from gender norms are understood one way,
 
-It would appear that context impacts the interpretation of an observation, which I think is the first layer of this deep onion we are peeling today.
+---?image=images/miami-beach.jpeg
+
+Note: 
+ whereas in the context of South Beach, they are understood a different way. 
+
+---
+
+Context has consequences 
+<br>
+for the interpretation of an observation. 
+
+Note:
+So context has consequences for the interpretation of an observation, which I think is the first layer of this deep onion we are peeling today.
 
 Science is all about the interpretation of observations. 
 We think of it as an objective truth, we see numbers and we assume that since something is quantified it must be unbiased. 
-Even though we know that interpretations of observations are only meaningful within a specific context. 
+Even though we know that interpretations of observations are only meaningful within a specific context.  
 
 ---
 
-@title[Context is invisible]
+@title[Positivism]
 
-The water that we are swimming in
+Positivity: 
+> "... the degree to which the phenomena can be exactly determined."
+> Lester Ward (1898)
 
----?image=images/handmaids-tale.jpeg
+**Positivism principles:**
+- Verification: a statement is to be judged meaningful if and only if there is a method for verifying it. 
+- Falsification: a statement is to be judged meaningful if and only if there is a method for falsifying it.
 
-@title[Margaret Atwood]
+Note:
+This building of an interpretation can be described as a feedback loop that connects observation to the development of theory, which leads to hypotheses on observations that should follow if the theory was put together well. 
 
-Margaret Attwood quote about Handmaid's Tale context changing on Nov 9. 
+In the first half of 1800s, Auguste Compte published a series of volumes called the Course in Positive Philosophy, in which he defines positivity as the degree to which the phenomena can be exactly determined.
+In this way he was the first philosopher of science, and these ideas of making inference from observations are what today is about. 
 
----
-
-@title[Revealing my biases]
-
-To be honest I struggled with whether to reveal so much of myself in this talk, but then had the thought that this is the context that frames my thoughts. 
-It would not be fair to ask you to listen to me, and maybe even accept my thoughts, without some insight into my biases, 
-the influences that shaped them and which provided context for them. 
-
----
-
-@title[Positivism vs ]
+So how exact of a science is data science? How do you set up your analysis such that you can make inference from it instead of be making it up? 
 
 ---
 
-@title[Design: Language and ambiguity]
+@title[Design: Ambiguity]
+
+Natural languages 
+<br>
+v.
+<br>
+Programming languages
+
+Note:
+Natural languages, such as the ones that we speak, English, Greek, Spanish, are by nature, ambiguous. 
+What everyone who programs knows is that programming languages are much less ambiguous, because computers need a concrete, no gaps, set of instructions on exactly what to do. 
+
+We need to be very careful when we combine a question that want to ask of the data, a question which is formed in natural language with the programming required to implement the analysis that will hopefully get you to an answer. 
+
+There is much opportunity to make assumptions when translating from an ambiguous language to an unambiguous one. 
+
+---?image=images/data-analysis-overview-slide1.png
+
+@title[Data analysis overview]
+
+Notes:
 
 
-I mentioned the word ambiguous earlier. That's a concept that is very familiar to programmers, largely because they have experience 
-with tools that are less ambiguous, programming languages. 
++++?image=images/data-analysis-overview-slide2.png
 
-So you see, language is creating our reality. That's a deeper idea that we won't really go into today. 
++++?image=images/data-analysis-overview-slide3.png
 
-http://www.pnas.org/content/pnas/110/35/14196.full.pdf
-
++++?image=images/data-analysis-overview-slide4.png
 ---
 
 @title[Design: Points of reference]
@@ -114,19 +134,6 @@ Clean data is good data.
 Sometimes cleaning data means throwing it all out. 
 There is no baby in this bathwater. 
 
-
----?image=images/data-analysis-overview-slide1.pdf
-
-@title[Data analysis overview]
-
-Notes:
-
-
-+++?image=images/data-analysis-overview-slide2.pdf
-
-+++?image=images/data-analysis-overview-slide3.pdf
-
-+++?image=images/data-analysis-overview-slide4.pdf
 
 
 ---
