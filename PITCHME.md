@@ -27,22 +27,30 @@ ahadjixenofontos@miami.edu
 <br>
 *noun* | con·text
 <br>
-2: the interrelated conditions in which somehting exists or occurs
+2: the interrelated conditions 
+<br>
+in which something exists or occurs
 
 Note:
 We hear the word context a lot. The historical context of the times, quotes being taken out of context, but at least for me, a deeper relationship with the word context didn't develop until I was about 22, and a first year graduate student. 
 
-I'll start with two familiar examples, one is about gender and the other involves Margaret Atwood. What does gender and Margaret Atwood have to do with data analyses? I am using them as the initial examples to calibrate our intuition, they are clearer to grasp, less ambiguous, than the ones we're about to dive into, and they are also just what I have. 
+I'll start with two familiar examples, one is about gender and the other involves Margaret Atwood. They will serve to calibrate our intuition, because they are clearer to grasp, less ambiguous, than the ones we'll dive into when it comes to data analysis. 
 
----?image=images/wooden-bowl.jpg
+---?image=images/monastery.jpeg
 
 @title[Gender]
+
+---?image=images/miami-beach.jpeg
+
+---
+
+Context has consequences for the interpretation of an observation. 
 
 Note:
 The first time I realized I didn't actually know what context really is was while volunteering at a local Miami non-profit. They graple with the nuances of context a lot, because their work includes conversations around gender.  
 
 The reason why context is especially important in gender conversations I think is illustrative. 
-In the context of a Catholic monastery in Colombia, deviations from gender norms are understood  one way, whereas in the context of a Unitarian church in South Miami, they are understood a different way. 
+In the context of a Catholic monastery in Colombia, deviations from gender norms are understood one way, whereas in the context of a Unitarian church in South Miami, they are understood a different way. 
 
 It would appear that context impacts the interpretation of an observation, which I think is the first layer of this deep onion we are peeling today.
 
