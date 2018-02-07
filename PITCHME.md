@@ -1,43 +1,34 @@
-@title[Title slide]
-
-# How to build a data analysis pipeline
-<br>
-### Athena Hadjixenofontos, PhD 
-#### Director of Engagement
-#### Center for Computational Science
+### How to build a data analysis pipeline
 
 <br>
+#### Athena Hadjixenofontos, PhD 
+##### Director of Engagement
+##### Center for Computational Science
+
 ahadjixenofontos@miami.edu
-
+<br>
 ---
 
 @title[Roadmap]
 #### Roadmap
 
-1. Birds eye view of data analysis
-1. Conceptualize the study: what is the question you want to answer? It will be abstract
-	1. eg medical care access and disease
-1. Subjectivity in science OR The importance of context OR Validity is in the eye of the beholder
-    1. Obvious examples
-    1. Subtle examples
-1. Mapping the steps of data analysis (conceptual) on to the parts of a pipeline (operational)
-1. Forms of bias
-1. Assumptions in data collection 
-1. The quality control process is also context dependent
-1. Assumptions in statistical modeling
-1. Not all roads lead to Rome OR There are more than one ways to write an algorithm
-1. Visualization decisions
-1. Sharing makes code better
+- Intuitive examples
+- The stages of data analysis
+- Statistics in context
+- Assumptions and bias 
+- Decision-making for the analysis of Miami-Dade County 311 calls 
 
 
----?image=images/paper.jpeg
+---
+
+![paper](images/paper.jpeg)
 
 @title[A thing I thought I knew]
 
 **Context**:
 A thing I thought I knew.
 
-Notes:
+Note:
 We hear the word context a lot. The historical context of the times, quotes being taken out of context, but at least for me, a deeper relationship with the word context didn't develop until I was about 22, and a first year graduate student. 
 
 I'll start with two familiar examples, one is about gender and the other involves Margaret Atwood. What does gender and Margaret Atwood have to do with data analyses? I am using them as the initial examples to calibrate our intuition, they are clearer to grasp, less ambiguous, than the ones we're about to dive into, and they are also just what I have. 
@@ -46,7 +37,7 @@ I'll start with two familiar examples, one is about gender and the other involve
 
 @title[Gender]
 
-Notes:
+Note:
 The first time I realized I didn't actually know what context really is was while volunteering at a local Miami non-profit. They graple with the nuances of context a lot, because their work includes conversations around gender.  
 
 The reason why context is especially important in gender conversations I think is illustrative. 
