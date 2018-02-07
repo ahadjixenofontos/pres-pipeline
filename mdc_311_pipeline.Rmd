@@ -1,0 +1,84 @@
+---
+title: "Building an analysis pipeline for Miami-Dade County 311 call data"
+author: "Athena Hadjixenofontos, PhD"
+date: "2/5/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Import the data
+
+*Decision making*
+Importing the data with stringsAsFactors set to TRUE assumes that I will be using the variables for statistical analyses that require the variables to be coded as factors. 
+If I were importing for visualizing I would probably import them as strings instead by setting this parameter to FALSE. 
+If I were unaware of the variable types and how to control them, I may use a statistical function inappropriately. Ideally, statistical functions will be coded to let you know when they see something suspicious like this, but this is more likely to be the case with established libraries than with those developed by random people on the internet. 
+
+```{r}
+mdc_calls <- read.csv("mdc_service_requests_311.csv", header = TRUE)
+
+names(mdc_calls)
+```
+
+## What can we do with this?
+
+```{r}
+# Clean up names vector 
+names(mdc_calls) <- gsub(pattern = "\\.+", replacement = "_", x = names(mdc_calls))
+
+# Quick view of variable types 
+str(mdc_calls)
+
+# Check out contents of some key variables
+# What are the top 20 reasons for a 311 call
+par(mar=c(16, 5, 2,2))
+barplot(head(sort(table(mdc_calls$Issue_Type), decreasing = TRUE), n = 20), las = 2, cex.names=0.75)
+
+# What is the distribution of owners of 311 calls?
+par(mar=c(16, 5, 2,2))
+barplot(sort(table(mdc_calls$Case_Owner), decreasing = TRUE), las = 2, cex.names = 0.8)
+
+# What is the distribution of ownership of the tickets by city?
+par(mar=c(16, 5, 2,2))
+barplot(sort(table(mdc_calls$City), decreasing = TRUE), las = 2, cex.names = 0.8, cex.axis = 0.8)
+
+# Without MDC 
+par(mar=c(12, 5, 2,2))
+cities <- droplevels(mdc_calls$City, exclude = "Miami_Dade_County")
+barplot(sort(table(cities), decreasing = TRUE), las = 2, cex.names = 0.8, cex.axis=0.8)
+
+# Method received
+table(mdc_calls$Method_Received)
+
+```
+
+```{r}
+# Distribution of incoming tickets over time
+max(mdc_calls$Created_Year_Month)
+min(mdc_calls$Created_Year_Month)
+
+# Dataset covers 5 years from 2013 to 2017 (inclusive)
+# Is 5*21 the number of unique values that we have?
+length(unique(mdc_calls$Created_Year_Month))
+
+# Close enough, the extra one is probably NAs
+```
+
+*Assumption alert*
+"The extra unique value in year-month is probably NA" is an assumption. It could also indicate something wrong with the data. Verify that this is the case before you continue. 
+This data is pre-cleaned prior to upload to the MDC site. 
+
+*Decision making*
+Most of the questions we can ask seem to be descriptive. What about the relationships of these variables to income and education levels? Can we bring in additional data to ask more meaningful questions?
+
+The additional data would have to be:
+1. Covering the same areas that we have information about here
+1. Over similar time spans as the 311 dataset 
+
+## Preprocess
+
+Even if all we wanted to do was descriptive, we would need to normalize for the size of the cities so as not to report biased results. 
+
+
