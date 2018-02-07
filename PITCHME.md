@@ -4,13 +4,13 @@
 #### Athena Hadjixenofontos, PhD 
 ##### Director of Engagement
 ##### Center for Computational Science
-
+<br>
 ahadjixenofontos@miami.edu
 <br>
 ---
 
 @title[Roadmap]
-#### Roadmap
+### Roadmap
 
 - Intuitive examples
 - The stages of data analysis
@@ -19,9 +19,7 @@ ahadjixenofontos@miami.edu
 - Decision-making for the analysis of Miami-Dade County 311 calls 
 
 
----
-
-![paper](images/paper.jpeg)
+---?image=images/paper.jpeg
 
 @title[A thing I thought I knew]
 
