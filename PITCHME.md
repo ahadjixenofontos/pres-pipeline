@@ -82,35 +82,124 @@ Note:
 
 @title[Design]
 
-## Design phase. 
-##### No shortcuts. 
+## Design phase 
+##### Don't take shortcuts. 
+
++++?image=images/path-in-focus.jpeg
+
+> If I have seen further than others, it is by standing upon the shoulders of giants. 
+> - Sir Isaac Newton
+
+Note:
+Where is the field? What is your starting point? Have others asked similar questions before you? What was their process?
+
+By reading the literature you will not only stand on the shoulders of giants in terms of choosing the appropriate methods, you will also develop an intuition for what can go wrong, and how to fix it. 
+
+You will be better able to anticipate the obstacles that will come up. 
 
 +++
 
-Where is the field? Is accumulated knowledge something you can use to build on?
-Dogma changing assumptions 
-No new neurons
+A good question is:
+- informed by the literature
+- answerable with the data available to you
+- answerable with the methods available to you 
+- falsifiable
+
++++?image=images/notepad.jpeg
+
+Example:
+<br>
+- General domain: employee engagement
+- Available data: unstructured text data from CVs, emails, performance reviews
+- Available methods: any, including NLP, regression etc.  
+
+####Can you think of an example of a good question?
+
++++
+
+<img src="images/diagonals.jpg">
+
+Beware of your assumptions. 
+<br>
+They define the questions that you will think to ask. 
+
+Note:
+My favorite example here is the birth of the field of neurogenesis. 
+For a long time, the dogma was that the last time that new neurons are born is during development.
 Neurogenesis is now an entire field
 And may have a role in learning and memory 
 For a long time people were completely blind to those neurons and their effects 
 
++++?image=images/camera.jpeg
+
+Give yourself a point of reference. 
+
+Note:
+Going back to our previous example with employee engagement based on employee personality, let's say that you came up with an awesome way to describe employee personality based on the text data that is available. 
+How do you know that the personality that you detected is indeed the true personality of that person? 
+
++++ 
+
+Setting a baseline is easier in some cases than in others. 
+<br>
+Be deliberate and thorough. 
+<br>
+#### This is how you give yourself a clear context for the interpretation of your results. 
+
+Note: 
+You really need to think through, before you embark on your analysis, "if I see this, what will it mean?" 
+Do you need additional information to be able to interpret your observation? 
+Can you bring that information into your analysis? 
+
+This is also the purpose of a pilot study, where you can figure all of this out before spending lots of times and money on a big scale study that turns out to be inconclusive. 
+
 +++
 
-Controls. Setting expectation. 
-Controls. Controls. Controls.
+#### Seeing Black: Race, Crime, and Visual Processing
+
+#### The study
+
+N = 41
 <br>
-Controls.
-Controls provide the context. 
+**Population studied:** white, male, UC Berkeley and Stanford university students
+<br>
+**Approach:** expose participants to face stimuli, then object stimuli (took shape over 41 frames)
 
-http://www.apa.org/monitor/jan05/visual.aspx
-Sounds straightforward right?
-What if the association was with the average color of the picture than with a racial bias?
+Note:
+Psychology and the social sciences in general, are notorious for bad study design and as the fields that struggle with replication the most. They were the last to catch on and start using the scientific method, and with good reason! The number of variables that become relevant when we are talking about human behavior is intractable and the systems are complex. This is in contrast to systems that are deterministic, controlled by a small number of variables and can be modeled explicitly. Physicists and engineers actually have it easy, because they are the most likely to work with these systems in which you can model every component explicitly. 
 
+The conversation about how to think of complex systems can fill years and years of courses and study, so they key thing to take away from our conversation today is that designing a project that involves complex system will be different than working in a deterministic context, and you need to account for that in your design. 
 
-The group that is associated with guns should then also be identified in a population of people
-who have white hunters associated with guns
-How do we know that it was the white male college student's association of black men with guns that generated the result? 
-What else could have done it?
+Automatic stereotyping is the idea that the mere presence of a person can lead one to think about the concepts with which that person's social group has become associated. 
+
+In this study, a group of four researchers designed an experiment where they sought to establish that exposure to black faces can decrease the perceptual thresholf for recognizing crime-related objects, to test the possibility that the stereotypic association between blacks and crime influences visual processing. 
+
+face stimuli: color photographs of 50 Black or 50 White young adult male faces, or no face/random lines stimulus for 30 ms
+object stimuli: 2 types object images (gun or knife) and (book or camera) 
+
++++?image=images/guns.png
+
++++
+
+#### The results
+
+<img src="seeing-black-results.png">
+What else could have generated these results?
+
+Note:
+After subliminal exposure to Black face primes, fewer frames were required to detect crime-relevant objects in comparison with crime-irrelevant objects t(13) = 2.96, p = 0.01
+
+Were all the images equal in 
+
+Did the photographs have more angry faces in one group than in the other? 
+Other differences? Better dressed? Different backgrounds?
+
+Was it a difference in attentional bias rather than a true difference in visual processing? 
+What influences attentional bias? How do you measure it?
+
++++
+
+### Think it through. 
 
 +++
 
