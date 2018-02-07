@@ -64,49 +64,12 @@ Science is all about the interpretation of observations.
 We think of it as an objective truth, we see numbers and we assume that since something is quantified it must be unbiased. 
 Even though we know that interpretations of observations are only meaningful within a specific context.  
 
----
-
-@title[Positivism]
-
-Positivity: 
-> "... the degree to which the phenomena can be exactly determined."
-> Lester Ward (1898)
-
-**Positivism principles:**
-- Verification: a statement is to be judged meaningful if and only if there is a method for verifying it. 
-- Falsification: a statement is to be judged meaningful if and only if there is a method for falsifying it.
-
-Note:
-This building of an interpretation can be described as a feedback loop that connects observation to the development of theory, which leads to hypotheses on observations that should follow if the theory was put together well. 
-
-In the first half of 1800s, Auguste Compte published a series of volumes called the Course in Positive Philosophy, in which he defines positivity as the degree to which the phenomena can be exactly determined.
-In this way he was the first philosopher of science, and these ideas of making inference from observations are what today is about. 
-
-So how exact of a science is data science? How do you set up your analysis such that you can make inference from it instead of be making it up? 
-
----
-
-@title[Design: Ambiguity]
-
-Natural languages 
-<br>
-v.
-<br>
-Programming languages
-
-Note:
-Natural languages, such as the ones that we speak, English, Greek, Spanish, are by nature, ambiguous. 
-What everyone who programs knows is that programming languages are much less ambiguous, because computers need a concrete, no gaps, set of instructions on exactly what to do. 
-
-We need to be very careful when we combine a question that want to ask of the data, a question which is formed in natural language with the programming required to implement the analysis that will hopefully get you to an answer. 
-
-There is much opportunity to make assumptions when translating from an ambiguous language to an unambiguous one. 
 
 ---?image=images/data-analysis-overview-slide1.png
 
 @title[Data analysis overview]
 
-Notes:
+Note:
 
 
 +++?image=images/data-analysis-overview-slide2.png
@@ -114,100 +77,17 @@ Notes:
 +++?image=images/data-analysis-overview-slide3.png
 
 +++?image=images/data-analysis-overview-slide4.png
----
-
-@title[Design: Points of reference]
-
-Controls. Setting expectation. 
 
 ---
 
-@title[Design/Implementation: Real data is messy]
+@title[Design]
 
-Quality control metrics.
-Some of them will flow out of expected biases of data collection. 
-Some of them will be a complete surprise to you, which is why it's really important to dig deep.  
-
----
-
-Clean data is good data. 
-Sometimes cleaning data means throwing it all out. 
-There is no baby in this bathwater. 
-
-
-
----
-
-@title[Implementation: uncertainty and statistics]
-
-Population parameters vs sample estimates
-Statistical bias: estimate differs from underlying parameter value
+## Design phase. 
+##### No shortcuts. 
 
 +++
 
-Correlation vs causation
-Xkcd correlation panels
-
-+++
-
-Statistical power
-Should really be in design section
-
-+++
-
-Statistical significance
-
-+++
-
-Communicate uncertainty in your visualizations
-
-+++
-
-**Your design, analysis, implementation and visualization decisions provide the context for the interpretation of your results.**
-
-+++
-
-Meta means after
-Meta analyses 
-
-+++
-
-All models are wrong but some are useful
-
-+++
-
-How would your understanding of this section change if I had put that last slide first? 
-
----
-
-@title[Biases and assumptions]
-
-We don't see things as they are, we see them as we are. 
--Anais Nin
-
-+++
-
-Perception is limited to what our senses (and sensors we design) can perceive
-https://www.facebook.com/quartznews/videos/191332488127750/
-
-+++
-
-Biases in data collection. 
-Ascertainment bias. 
-
-+++
-
-Cognitive biases. 
-Covered in multiple other sources. 
-
-+++
-
-Knockout mouse line where gene was knocked out from all tissues but turns out that some tissues still express that protein 
-Tool that you expect will work a certain way but doesn’t
-If you continue using it as if it does what you assume you’ll misinterpret the results 
-
-+++
-
+Where is the field? Is accumulated knowledge something you can use to build on?
 Dogma changing assumptions 
 No new neurons
 Neurogenesis is now an entire field
@@ -216,34 +96,7 @@ For a long time people were completely blind to those neurons and their effects
 
 +++
 
-Assumption that to keep someone’s heart beating you needed to cut the chest open and do t manually so for a long time we were unnecessarily cutting the chest open 
-That assumption was wrong 
-You can just do cpr 
-
-+++
-
-We categorize, that’s what we do 
-Based on general associations we’ve learned about those variables but they don’t always hold true 
-They are useful because testing all of them takes time and resources 
-Identify and test the key ones for your study 
-
-+++
-
-Assume that your code implementation is correct
-Example of evolutionary biologist who retracted the paper
-
----
-
-@title[Interpretation]
-
-Example of misplaced causality
-My mom does this a lot. Undue inference. 
-Won't be so obvious when you are dealing with things that are not intuitive. 
-
-Successful big tech and company culture or managerial styles
-
----
-
+Controls. Setting expectation. 
 Controls. Controls. Controls.
 <br>
 Controls.
@@ -259,12 +112,144 @@ who have white hunters associated with guns
 How do we know that it was the white male college student's association of black men with guns that generated the result? 
 What else could have done it?
 
++++
+
+Statistical power
+Should really be in design section
+
++++
+
+Quality control metrics.
+Some of them will flow out of expected/known biases of data collection. 
+
++++
+
+Database format
+
 ---
 
-@title[So what do I do?]
+@title[Implementation]
+
+Clean data is good data. 
+Sometimes cleaning data means throwing it all out. 
+There is no baby in this bathwater. 
+Some of them will be a complete surprise to you, which is why it's really important to dig deep.  
+
++++
+
+Descriptive statistics
+
++++
+
+Preliminary relationships
+
++++
+
+Dimensionality reduction
+
++++
+
+Modular building
+
+---
+
+@title[Inference]
+
+Population parameters vs sample estimates
+Statistical bias: estimate differs from underlying parameter value
+
++++
+
+Example of misplaced causality
+My mom does this a lot. Undue inference. 
+Won't be so obvious when you are dealing with things that are not intuitive. 
+
+Successful big tech and company culture or managerial styles
+
++++
+
+Correlation vs causation
+Xkcd correlation panels
+
++++
+
+Statistical significance
+
++++
+
+Meta means after
+Meta analyses 
+
++++
+
+Machine learning
+
++++
+
+All models are wrong but some are useful
+
++++
+
+Communicate uncertainty in your visualizations
+
+---
+
+**Your design, analysis, implementation and visualization decisions provide the context for the interpretation of your results.**
+
+---
+
+@title[Biases and assumptions]
+
+We don't see things as they are, we see them as we are. 
+-Anais Nin
+
+
++++
+
+Knockout mouse line where gene was knocked out from all tissues but turns out that some tissues still express that protein 
+Tool that you expect will work a certain way but doesn’t
+If you continue using it as if it does what you assume you’ll misinterpret the results 
+
++++
+
+Assumption that to keep someone’s heart beating you needed to cut the chest open and do t manually so for a long time we were unnecessarily cutting the chest open 
+That assumption was wrong 
+You can just do cpr 
+
++++
+
+Perception is limited to what our senses (and sensors we design) can perceive
+https://www.facebook.com/quartznews/videos/191332488127750/
+
++++
+
+Example of interpretation in the context of ascertainment bias
+
++++
+
+Cognitive biases. 
+Covered in multiple other sources. 
+
++++
+
+We categorize, that’s what we do 
+Based on general associations we’ve learned about those variables but they don’t always hold true 
+They are useful because testing all of them takes time and resources 
+Identify and test the key ones for your study 
+
++++
+
+You assume/hope that your code implementation is correct
+Example of evolutionary biologist who retracted the paper
+
+---
+
+@title[Bottom line]
 
 You don’t know what you don’t know
 But what you can know is that you don’t know
+
+Note:
 To be aware of your biases
 This goes against our culture
 Gap between business world
@@ -274,15 +259,10 @@ What are you blind to? Easy to ask but difficult to answer because hindsight is 
 The point isn’t to catch yourself because it’s guaranteed that you won’t
 Try your best and be aware that “your way is not the best” even when you do become an expert 
 
----
-
-@title[Miami-Dade County 311 data]
-
-
 
 ---
 
-Barriers 
+@title[Barriers] 
 
 +++?image=images/fast-train.jpeg
 
@@ -312,37 +292,23 @@ Notice I didn't say "objective", I said "more objective". I don't know that unta
 If you truly want to let the data speak for itself, you need to get yourself out of the way. 
 Won't always be possible. And that's also (in some cases) okay. 
 
----
++++
 
 Develop your data analysis intuition. 
 Practice. 
 
 ---
 
+@title[Miami-Dade County 311 data]
+
+
+---
 
 <br>
 My <span style="color:blue">words in color.</span>
 <br>
+
 ---
-
-@title[]
-
-* bullet
-    * sub-bullet
-<br>
-1. first element 
-1. second element
-    1. subelement 
-
----?image=images/bunny.jpg
-
-@title[Image as background]
-
-<br>
-Goodnight. I am a sleepy bunny. 
-<br>
-
-+++
 
 @title[Image in slide]
 
