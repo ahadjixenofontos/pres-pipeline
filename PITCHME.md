@@ -352,13 +352,18 @@ The effect is even more pronounced in high-dimensional data, where your choices 
 
 +++
 
-#### <font color="#008080"> Build a modular pipeline. </font>
+#### <font color="#008080"> Build a modular pipeline </font>
 <br>
 Your choices of where to break up the various operations will impact the ease with which you or other researchers can repurpose your tools for other analyses.
 
 ---
 
 @title[Inference]
+
+### Inference phase
+#### Choose your words carefully.
+
++++
 
 Population parameters vs sample estimates
 Statistical bias: estimate differs from underlying parameter value
