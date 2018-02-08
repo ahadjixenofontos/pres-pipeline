@@ -574,7 +574,7 @@ You do need to communicate responsibly. Understaning how the human mind processe
 
 #### <font color="#008080">  Elementary perceptual tasks </font>
 
-<img src="images/tasks.png" height="350">
+<img src="images/tasks.png" height="450">
 
 <span style="font-size:0.4em">Cleveland & McGill, 1984</span>
 
@@ -587,7 +587,7 @@ It’s not that the less accurate ways in which we perceive information are bad,
 
 +++
 
-<img src="images/perception.png" height="350">
+<img src="images/perception.png" height="450">
 
 +++
 
@@ -604,9 +604,9 @@ that you assign to your audience.
 
 @title[Biases and assumptions]
 
-<img src="images/spotlight.png" height="200">
+<img src="images/spotlight.png" height="400">
 > We don't see things as they are, we see them as we are. 
-> * Anais Nin
+> <br> <font color="#008080">Anais Nin </font>
 
 
 +++
