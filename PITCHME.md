@@ -365,8 +365,18 @@ Your choices of where to break up the various operations will impact the ease wi
 
 +++
 
-Population parameters vs sample estimates
-Statistical bias: estimate differs from underlying parameter value
+#### <font color="#008080"> Samples and populations </font>
+
+A parameter characterizes a population. 
+<br> 
+A statistic characterizes a sample.
+<br>
+**Exercise:** 
+
++++
+
+#### <font color="#008080"> Statistical bias:</font>
+Systematic differences between the population parameter and the sample estimate, introduced by the way a statistic is calculated. 
 
 +++
 
@@ -381,7 +391,7 @@ Successful big tech and company culture or managerial styles
 **Example**
 Some personality traits predict behaviors, to varying extents.
 
-**Message** 
+#### <font color="#008080"> Take away: </font>
 Resist the urge to fill in the blanks. 
 
 Note:
