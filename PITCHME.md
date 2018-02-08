@@ -1,4 +1,4 @@
-### <font color="red"> How to build a data analysis pipeline </font>
+### <font color="#008080"> How to build a data analysis pipeline </font>
 
 <br>
 #### Athena Hadjixenofontos, PhD 
