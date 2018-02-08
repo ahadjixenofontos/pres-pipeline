@@ -294,12 +294,19 @@ If you don't think about this last point ahead of time, you will be adding steps
 
 <img src="images/data-analysis-overview.005.jpeg" height="550"> 
 
----
++++
 
-Clean data is good data. 
-Sometimes cleaning data means throwing it all out. 
-There is no baby in this bathwater. 
-Some of them will be a complete surprise to you, which is why it's really important to dig deep.  
+The goal of quality control is to gain trust in your data. 
+
++++
+
+Dig deep by following the bread crumbs.  
+<br>
+<br>
+Some of the clues that your data is unreliable may be a surprise and difficult to uncover. 
+
+Note: 
+Data is messy. That's okay. It's not a reflection on you (well it may be, if you didn't take the design phase seriously) and in any case, you want to be the one to find out 
 
 +++
 
