@@ -185,9 +185,9 @@ Be deliberate and thorough.
 
 #### Seeing Black: Race, Crime, and Visual Processing
 
-N = 41
 <br>
-**Population:** white, male, UC Berkeley and Stanford university students
+<br>
+**Population:** 41 white, male, UC Berkeley and Stanford university students
 <br>
 **Approach:** subliminal exposure of participants to face stimuli for 30ms, then exposure to object stimuli
 
