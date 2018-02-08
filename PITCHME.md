@@ -131,8 +131,6 @@ Example:
 Note: 
 Let's spend a couple minutes thinking about this example. What else would you want to collect, if you had the freedom to? 
 
-+++?image=images/gage-neurogenesis.png
-
 +++
 
 Beware of your assumptions. 
@@ -147,6 +145,13 @@ A pair of researchers, Altman and Das, published evidence of adult neurogenesis 
 That wasn't enough to overturn the dogma that adult brains don't make new neurons. More researchers published evidence in the 70's, and drama ensued. Careers were destroyed by a combination of criticism and lack of support. The very things that we hold in highest regard, not extending inference of findings based on model organisms to humans, worked against us in this case. The first studies were done in birds, and a very influential researcher Pasko Rakic published a paper in Science, convincing researchers that adult neurogenesis was restricted to birds and rodents, and didn't happen in primates. It took another 20 years for the field to recover. Neurogenesis is now an entire field, and we know that it may have a role in learning and memory. 
 
 Hindsight is 20-20. It's not that it's hard to keep an open mind, it's the idea of how far do you take a notion for it to require "an open mind?". What does the data say? Has there been data collected on adult neurogenesis in primates? That was a question that we maybe wouldn't even think to ask if not prompted by the studies in birds and rodents. 
+
+
++++?image=images/gage-neurogenesis.png
+
+Note:
+In this paper from 1995, a group of researchers looked at the dentate gyrus, which is a region of the hippocampus that undergoes neurogenesis. 
+They show that cells isolated from that region can be cultured in vitro, and they can survive, proliferate and express neuronal and glial markers. They also labelled the cultured cells so that they could track them, and transplanted them back in the brain of a rat. Two months later they found labelled cells that had matured and differentiated into neurons. 
 
 +++?image=images/camera.jpeg
 
