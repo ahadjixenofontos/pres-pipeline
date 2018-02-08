@@ -300,8 +300,7 @@ The goal of quality control is to <font color="#008080"> gain trust in your data
 +++?image=images/bread-crumbs.jpeg
 
 <font color="white">Dig deep by following the bread crumbs.  </font>	
-<br>
-<br>
+<br><br><br><br>
 <font color="white">Some of the clues that your data is unreliable may be a surprise and difficult to uncover. </font>	
 
 Note: 
