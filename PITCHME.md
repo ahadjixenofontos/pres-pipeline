@@ -334,7 +334,8 @@ Resulting dimensions are less interpretable.
 +++
 
 <img src="images/ms-pca.jpg" height="550">
-Sawcer et al. 2011, Nature Genetics
+<br>
+<font size="234">Sawcer et al. 2011, Nature Genetics</font>
 
 +++
 
