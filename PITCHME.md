@@ -567,19 +567,36 @@ How do you communicate uncertainty?
 <br><br>
 How do you communicate all the decisions that you made along the way, that form the context for interpreting your results?
 
+Note:
+You do need to communicate responsibly. Understaning how the human mind processes the visual information is really important in creating effective, responsible visualizations. 
+
 +++
 
 #### <font color="#008080">  Elementary perceptual tasks </font>
 
-
+<img src="images/tasks.png" height="250">
 
 <span style="font-size:0.4em">Cleveland & McGill, 1984</span>
+
+Note:
+The first to really try to systematically understand how we understand visual information were William Cleveland and Robert McGill in 1984. The diagram here shows a ranking of what they called elementary perceptual tasks, in order of how accurate the judgements are that flow out of them. So for example if you show a human the information as a point along a scale, they will much more accurately understand that information than they would if you showed it to them as a map with different shades of red.
+
+What about the angles, what common graphic uses those? 
+
+It’s not that the less accurate ways in which we perceive information are bad, it’s again that you have to be aware of what message you want to send and how the way that you choose to visualize it may affect it. It may be totally okay to be inaccurate for some messages, but simply unacceptable for other messages. It depends on what you want to say. 
 
 +++
 
 <img src="images/perception.png" height="150">
 
++++
+
+Be deliberate about the perceptual tasks 
+that you assign to your audience. 
+
 ---
+
+#### <font color="#008080">  Take away: </font>
 
 **Your design, analysis, implementation and visualization decisions provide the context for the interpretation of your results.**
 
@@ -594,8 +611,11 @@ How do you communicate all the decisions that you made along the way, that form 
 
 +++
 
-<img src="images/business-man.jpeg" height="150">
+What are the barriers to operating with a conscious awareness of your biases?
 
++++
+
+<img src="images/business-man.jpeg" height="150">
 
 Note:
 Culture of knowing. 
