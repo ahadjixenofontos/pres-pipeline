@@ -204,10 +204,10 @@ face stimuli: color photographs of 50 Black or 50 White young adult male faces, 
 object stimuli: 2 types object images (gun or knife) and (book or camera) 
 
 +++
-<img src=">images/guns.png">
+<img src=">images/guns.png" height="250" >
 
 +++
-<img src="images/seeing-black-results.png">
+<img src="images/seeing-black-results.png" height="500" >
 What else could have generated these results?
 
 Note:
