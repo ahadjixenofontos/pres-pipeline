@@ -73,7 +73,7 @@ The decisions you make along the way will be informed by the context of your dat
 @title[Design]
 
 ## Design phase 
-##### Don't take shortcuts. 
+##### <font color="#008080"> Don't take shortcuts. </font>
 
 +++?image=images/path-in-focus.jpeg
 
@@ -224,7 +224,7 @@ What influences attentional bias? How do you measure it?
 
 +++
 
-#### Statistical power
+#### <font color="#008080"> Statistical power </font>
 
 ... or the probability that you will be able to distinguish between a true effect of a certain size and chance. 
 <br>
@@ -238,7 +238,7 @@ Switch to RStudio
 
 +++
 
-#### Quality Control
+#### <font color="#008080"> Quality Control </font>
 
 Identify QC metrics that you will use, ahead of time if possible. 
 <br>
@@ -252,7 +252,7 @@ Rate of missingness is a big one, does it matter for your analysis whether or no
 
 +++
 
-#### Database format
+#### <font color="#008080"> Database format </font>
 Think about:
 - Appropriate data types
 - Being able to easily query it!
@@ -275,7 +275,7 @@ If you don't think about this last point ahead of time, you will be adding steps
 @title[Implementation]
 
 ## Implementation phase 
-##### Go to town! 
+##### <font color="#008080"> Go to town! </font>
 
 +++
 
