@@ -319,7 +319,7 @@ Data is messy. That's okay. It's not a reflection on you (well it may be, if you
 
 ### <font color="#008080"> Dimensionality reduction </font>
 
-- Decision tree
+- Decision trees
 - Correlation between all variables
 - Backward or forward feature selection
 - Factor analysis
@@ -331,7 +331,10 @@ Random Forests are a special case of that first bullet. They are biased towards 
 The method you choose depends on the data that you have, and what you set as your priorities.
 Resulting dimensions are less interpretable. 
 
-+++?image=images/ms-pca.jpg
++++
+
+<img src="images/ms-pca.jpg" height="550">
+Sawcer et al. 2011, Nature Genetics
 
 +++
 
