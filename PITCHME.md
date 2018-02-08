@@ -318,12 +318,12 @@ Data is messy. That's okay. It's not a reflection on you (well it may be, if you
 +++
 
 ### <font color="#008080"> Dimensionality reduction </font>
-- For multidimensional data, you have options:
-	- Use a decision tree to identify which variables are important
-	- Look at the correlation between all variables and use a metric to decide which to drop
-	- Backward or forward feature selection if you are using regression
-	- Latent factor analysis
-	- Collapse the dimensions onto their major axes of variation
+
+- Use a decision tree to identify which variables are important
+- Look at the correlation between all variables and use a metric to decide which to drop
+- Backward or forward feature selection if you are using regression
+- Factor analysis
+- Collapse the dimensions onto their major axes of variation
 
 Note:
 Random Forests are a special case of that first bullet. They are biased towards continuous variables, so you need to keep that in mind if you have binary or categorical variables that you expect will be important to keep. 
