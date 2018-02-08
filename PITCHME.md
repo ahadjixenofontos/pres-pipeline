@@ -334,17 +334,19 @@ Resulting dimensions are less interpretable.
 +++
 
 <img src="images/ms-pca.jpg" height="550">
+<br>
 <span style="font-size:0.4em">Sawcer et al. 2011, Nature Genetics </span>
-
 
 +++
 
-### Take away:
+### <font color="#008080"> Take away: </font>
 Your choice of how to deal with multiple dimensions will impact how the information is undestood and interpreted. 
 
-The effect is even more pronounced in high-dimensional data, where your choices will include which dimensions to highlight and which to ignore. 
+The effect is even more pronounced in high-dimensional data, where your choices will include which dimensions to <font color="#008080"> highlight </font> and which to <font color="#D3D3D3"> ignore </font>. 
 
-+++?image=images/dimensions_xkcd.png
++++
+
+<img src="images/dimensions_xkcd.png" height="550">
 
 +++
 
