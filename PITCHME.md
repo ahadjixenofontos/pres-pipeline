@@ -13,11 +13,13 @@ ahadjixenofontos@miami.edu
 @title[Roadmap]
 ## Roadmap
 
-- Intuitive examples
+- What is context?
 - The stages of data analysis
-- Statistics in context
+- Design
+- Implementation
+- Inference
 - Assumptions and bias 
-- Decision-making for the analysis of Miami-Dade County 311 calls 
+- Miami-Dade County 311 calls 
 
 
 ---?image=images/bowl.jpg
@@ -82,11 +84,15 @@ This is a great way to bring the picture into focus, hone in on what you really 
 +++
 
 > If I have seen further than others, it is by standing upon the shoulders of giants. 
+
+<br>
 > \- Sir Isaac Newton
 
 +++
 
 > If I asked my customers what they wanted, they would have said "a faster horse". 
+
+<br>
 > \- Henry Ford
 
 Note: 
@@ -125,9 +131,9 @@ Example:
 Note: 
 Let's spend a couple minutes thinking about this example. What else would you want to collect, if you had the freedom to? 
 
-+++
++++?image=images/gage-neurogenesis.png
 
-<img src="images/diagonals.jpeg">
++++
 
 Beware of your assumptions. 
 <br>
