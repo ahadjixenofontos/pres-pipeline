@@ -189,6 +189,7 @@ Be deliberate and thorough.
 <br>
 **Population:** 41 white, male, UC Berkeley and Stanford university students
 <br>
+<br>
 **Approach:** subliminal exposure of participants to face stimuli for 30ms, then exposure to object stimuli
 
 Note:
