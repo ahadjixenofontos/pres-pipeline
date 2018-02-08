@@ -476,7 +476,15 @@ When we talk about inference, we always bump into a discussion of statistical si
 Note:
 Machine learning is also a type of modeling, which has been around since the 1950s. Frank Rosenblatt's perceptron, which is an algorithm for learning a binary classifier, was conceived in 1957. 
 
-Supervised learning models are trained with inputs for which the outputs are known. 
+How do you choose which suits your data?
+
+Supervised learning models are trained with inputs for which the outputs are known. They include regression, classification, prediction and gradient boosting. 
+
+Unstructured learning is where the system is not told the "right answer." The algorithm must figure out what is being shown. The goal is to explore the data and find some structure within. You may have heard of self-organizing maps, nearest-neighbor mapping, k-means clustering, and singular value decomposition. 
+
+Semisupervised learning is where you have a mix of labeled and unlabeled data in your training set. Can also be used with methods like classification, regression and prediction. 
+
+Reinforcement learning is where the algorithm discovers which actions yield the greatest rewards through trial and error. 
 
 All machine learning algorithms have the objective of minimizing the error, optimizing a loss function, which if you are familiar with regression you might draw some parallels to minimizing the sums of squares of the residuals. 
 
@@ -486,13 +494,15 @@ All machine learning algorithms have the objective of minimizing the error, opti
 
 Explosion in ML is connected to both availability of data, and improvements in technology. 
 <br><br>
-Extracted features are difficult to interpret.  
+The computer probes the data for structure, in the absence of a theory of what that structure looks like. The extracted features are difficult to interpret.  
 
 Note:
 In the context of the times, the explosion in the popularity of ML is linked to both the data and the technology. 
 
 It's great, and it's not going to solve all our problems. One issue that you need to consider before choosing a ML algorithm for your problem is how difficult it is to interpret the features that are extracted. 
 It's the price to pay for having no explicit rules that are programmed by the human into how to make the decisions. On one hand you can model observations in much more detail, on the other hand it's really difficult to explain why, other than simply observing that it works. 
+
+Another advantage of ML is that the data doesn't need to meet strong distributional assumptions, like with a statistical model where the math is worked out but only under those specific circumstances. 
 
 +++
 
