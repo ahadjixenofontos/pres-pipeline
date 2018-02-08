@@ -295,14 +295,14 @@ If you don't think about this last point ahead of time, you will be adding steps
 
 +++
 
-The goal of quality control is to gain trust in your data. 
+The goal of quality control is to <font color="#008080"> gain trust in your data </font>. 
 
-+++
++++?image=images/bread-crumbs.jpeg
 
-Dig deep by following the bread crumbs.  
+<font color="white">Dig deep by following the bread crumbs.  </font>	
 <br>
 <br>
-Some of the clues that your data is unreliable may be a surprise and difficult to uncover. 
+<font color="white">Some of the clues that your data is unreliable may be a surprise and difficult to uncover. </font>	
 
 Note: 
 Data is messy. That's okay. It's not a reflection on you (well it may be, if you didn't take the design phase seriously) and in any case, you want to be the one to find out 
