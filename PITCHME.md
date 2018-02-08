@@ -106,8 +106,8 @@ and
 
 +++
 
-A good question is:
-<font color="#008080">-</font> informed by the literature
+A <font color="#008080"> good question </font> is:
+- informed by the literature
 - answerable with the data available to you
 - answerable with the methods available to you 
 - falsifiable
