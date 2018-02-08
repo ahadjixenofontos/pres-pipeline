@@ -392,12 +392,27 @@ A statistic characterizes a sample.
 Take samples of varying size from a standard normal distribution to demonstrate the difference between a parameter and a point estimate. 
 
 Note: 
-Change to RStudio
+In order to truly understand why inference can be such a tricky thing to make, we need some basic statistical concepts, that you're probably already familiar with. First on the list is how to think about samples and populations. 
+
+Change to RStudio. 
 
 +++
 
 #### <font color="#008080"> Statistical bias</font>
 *Systematic* differences between the population parameter and the sample estimate, introduced by the way a statistic is calculated. 
+<br><br>
+Types of bias:
+* ascertainment bias
+* detection bias
+* funding bias
+* reporting bias
+* recall bias
+
+Note:
+A statistic is a mathematical expression that expresses a measure of an attribute of a sample, such as the mean. These functions are not always good estimators of the underlying population parameter, and they can introduce bias in your estimate. 
+
+The errors are actually usually not due to the function itself, but due to the data that you feed it. 
+For example, acertainment bias is when your sample is not representative of the population that they are drawn from. When we were carrying out ascertainment for a study in multiple sclerosis, we did that through an MS clinic, so our sample was biased for people who would go to an MS clinic as opposed to a neurologist in a different department. 
 
 +++
 
@@ -444,6 +459,11 @@ Academics tend to care more about mechanism than business people. It's the diffe
 
 +++
 
+<img src="images/data-analysis-overview.005.jpeg" height="550"> 
+Note:
+Okay, so now that we know what's what and what to look out for, let's actually do some modeling. 
++++
+
 #### <font color="#008080"> Inferential statistics </font>
 Which modeling approach is appropriate depends on:
 * types of variables
@@ -451,6 +471,9 @@ Which modeling approach is appropriate depends on:
 * distributions of variables
 * sample size
 * correlations between variables
+
+Note:
+Because the model is mathematically expressed, we are forced to make some assumptions. You all know that you need to use different models for example when your outcome is a continuous variable vs when it is a binary variable. If the observations are not independent, you need to use a repeated measures design. This is often useful with longitudinal data where you have multiple measurements on the same individual. 
 
 +++
 
@@ -462,8 +485,9 @@ It doesn't have to do with how important the finding is.
 <img src="images/pvalue.png" height="200">
 
 Note:
+From any of these tests, you'll get the celebrated p-values. When we talk about inference, we always bump into a discussion of statistical significance. 
 
-When we talk about inference, we always bump into a discussion of statistical significance. We have some intuition as to what that means now that we've done the power exercise. 
+We have some intuition as to what that means now that we've done the power exercise. 
 
 +++
 
