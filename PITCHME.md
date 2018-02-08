@@ -310,12 +310,10 @@ Data is messy. That's okay. It's not a reflection on you (well it may be, if you
 
 ### <font color="#008080"> Descriptive statistics </font>
 * Check the distributions of all key variables. 
-	* Averages, standard deviation, range, frequency tables
-	* Outliers 
-	* Rates of missingness
+	* Basic statistics, outliers, missing values
 * Drop observations if appropriate. 
 * Preliminary visualization of relationships between variables.
-	* Scatterplots, boxplots, braplots, frequency tables 
+	* Scatterplots, boxplots, barplots
 
 +++
 
