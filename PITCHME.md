@@ -280,19 +280,19 @@ If you don't think about this last point ahead of time, you will be adding steps
 
 +++
 
-<img src="images/data-analysis-overview.002.jpeg" height="600"> 
+<img src="images/data-analysis-overview.002.jpeg" height="550"> 
 
 +++
 
-<img src="images/data-analysis-overview.003.jpeg" height="600"> 
+<img src="images/data-analysis-overview.003.jpeg" height="550"> 
 
 +++
 
-<img src="images/data-analysis-overview.004.jpeg" height="600"> 
+<img src="images/data-analysis-overview.004.jpeg" height="550"> 
 
 +++
 
-<img src="images/data-analysis-overview.005.jpeg" height="600"> 
+<img src="images/data-analysis-overview.005.jpeg" height="550"> 
 
 ---
 
