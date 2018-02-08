@@ -13,7 +13,7 @@ ahadjixenofontos@miami.edu
 ---
 
 @title[Roadmap]
-## Roadmap
+## <font color="#008080"> Roadmap </font>
 
 - What is context?
 - The stages of data analysis
@@ -28,13 +28,13 @@ ahadjixenofontos@miami.edu
 
 @title[Context]
 
-<span style="color:black">**context** </span> 
+<span style="color:teal">**context** </span> 
 <br>
 *noun* | con·text
 <br>
-<span style="color:black">1:</span> the parts of a discourse that surround a word or passage and can throw light on its meaning
+<span style="color:teal">1:</span> the parts of a discourse that surround a word or passage and can throw light on its meaning
 <br>
-<span style="color:black">2:</span> the interrelated conditions in which something exists or occurs
+<span style="color:teal">2:</span> the interrelated conditions in which something exists or occurs
 
 Note:
 We hear the word context a lot. The historical context of the times, quotes being taken out of context, but a deeper relationship with what that actually means is part of our objective today. 
