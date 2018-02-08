@@ -24,12 +24,13 @@ ahadjixenofontos@miami.edu
 
 @title[Context]
 
-**context**
+<span style="color:black">**context** </span> 
 <br>
 *noun* | con·text
 <br>
-1: the parts of a discourse that surround a word or passage and can throw light on its meaning
-2: the interrelated conditions in which something exists or occurs
+<span style="color:black">1:</span> the parts of a discourse that surround a word or passage and can throw light on its meaning
+<br>
+<span style="color:black">2:</span> the interrelated conditions in which something exists or occurs
 
 Note:
 We hear the word context a lot. The historical context of the times, quotes being taken out of context, but at least for me, a deeper relationship with the word context didn't develop until I was about 22, and a first year graduate student. 
@@ -48,18 +49,12 @@ We think of it as an objective truth, we see numbers and we assume that since so
 Even though we know that interpretations of observations are only meaningful within a specific context.  
 
 
----?image=images/data-analysis-overview-slide1.png
+---?image=images/data-analysis-overview.001.jpeg
 
-@title[Data analysis overview]
+@title[Pipeline overview]
 
 Note:
 
-
-+++?image=images/data-analysis-overview-slide2.png
-
-+++?image=images/data-analysis-overview-slide3.png
-
-+++?image=images/data-analysis-overview-slide4.png
 
 ---
 
@@ -217,6 +212,16 @@ Rate of missingness is a big one, does it matter for your analysis whether or no
 
 Note:
 If you have any say in how the database that receives the data is designed, then use that to help you avoid as much tricky data wrangling as possible. 
+
+---
+
++++?image=images/data-analysis-overview.002.jpeg
+
++++?image=images/data-analysis-overview.003.jpeg
+
++++?image=images/data-analysis-overview.004.jpeg
+
++++?image=images/data-analysis-overview.005.jpeg
 
 ---
 
