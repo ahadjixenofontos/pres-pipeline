@@ -339,6 +339,23 @@ Resulting dimensions are less interpretable.
 
 +++
 
+<img src="images/cookies-pca.png" height="550">
+<br>
+<span>By Reddit user everest4ever </span>
+
+Note:
+He says:
+People in my office got into a huge debate about what are eligible entries for the cookie competition (e.g. are mini-pizzas cookies), and I was inspired by the Sandwich Alignment Chart to analyze the ingredient list of baked good recipes.
+
+I scraped 1931 recipes from the Food Network that contain the keywords cookies (my group of interest), pastry, or pizza (two control groups). Next I extracted the ingredient list and pooled similar ingredients together (e.g. salt, seasalt, Kosher salt), coming up with a total of 133 unique ingredients. I ended up with a 1931x133 matrix, where each row is one recipe, and each column is whether this recipe contains a certain ingredient (0 or 1).
+
+I then tried to reduce the dimensionality of the data using principal component analysis (PC1 & PC2 are the first two principal components), and found that there is a nice separation between cookies and pizzas along the first principal component, but there is substantial overlap between cookies and pastries.
+
+The major contribution to PC1 are: sugar, butter, vanilla, eggs, and baking soda (in the positive/cookie-like direction); cooking oil, cheese, garlic, dough, tomatoes, onions, and black pepper (in the negative/pizza-like direction), which makes intuitive sense.
+
+
++++
+
 ### <font color="#008080"> Take away: </font>
 Your choice of how to deal with multiple dimensions will impact how the information is undestood and interpreted. 
 
@@ -387,12 +404,13 @@ Systematic differences between the population parameter and the sample estimate,
 #### <font color="#008080"> Misplaced causality </font>
 
 **Example:**
-Won't be so obvious when you are dealing with things that are not intuitive. 
-
 Successful big tech and company culture or managerial styles
 
 Note:
 My mom does this a lot. She sees a 
+
+Or 
+Won't be so obvious when you are dealing with things that are not intuitive. 
 
 +++
 
@@ -413,12 +431,18 @@ Academics tend to care more about mechanism than business people. It's the diffe
 
 +++
 
-Correlation vs causation
-Xkcd correlation panels
+<img src="images/correlation.png" height="400">
+<br>
+xkcd.com/552
 
 +++
 
-Statistical significance
+#### <font color="#008080"> Statistical significance </font>
+A *p-value* is the probability of observing such an extreme value of the test statistic by chance. 
+
+It doesn't have to do with how important the finding is. 
+
+<img src="images/pvalue.png" height="200">
 
 +++
 
@@ -431,7 +455,11 @@ Machine learning
 
 +++
 
-All models are wrong but some are useful
+<img src="images/george-box.png" height="200">
+
+> All models are wrong but some are useful. 
+> * George Box
+
 
 +++
 
