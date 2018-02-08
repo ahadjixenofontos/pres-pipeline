@@ -1,9 +1,11 @@
 ### <font color="#008080"> How to build a data analysis pipeline </font>
 
 <br>
-#### Athena Hadjixenofontos, PhD 
-##### Director of Engagement
-##### Center for Computational Science
+<font size=14>Athena Hadjixenofontos, PhD </font>
+<br>
+Director of Engagement
+<br>
+Center for Computational Science
 <br>
 ahadjixenofontos@miami.edu
 <br>
