@@ -53,7 +53,8 @@ We think of it as an objective truth, we see numbers and we assume that since so
 Even though we know that interpretations of observations are only meaningful within a specific context.  
 
 
----?image=images/data-analysis-overview.001.jpeg
+---
+<img src="images/data-analysis-overview.001.jpeg" height="550">
 
 @title[Pipeline overview]
 
