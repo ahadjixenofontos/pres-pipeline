@@ -169,7 +169,8 @@ Even more crucial if you have an intervention as part of your data. How do you k
 
 Setting a baseline is easier in some cases than in others. 
 <br>
-But, this is how you give yourself a clear context for the interpretation of your results. 
+<br>
+It is essential in giving yourself a clear context for the interpretation of your results. 
 
 Note: 
 You really need to think through, before you embark on your analysis, "if I see this, what will it mean?" 
