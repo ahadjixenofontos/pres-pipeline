@@ -170,7 +170,7 @@ Even more crucial if you have an intervention as part of your data. How do you k
 Setting a baseline is easier in some cases than in others. 
 <br>
 <br>
-It is essential in giving yourself a clear context for the interpretation of your results. 
+It is <span style="color:white">essential</span> in giving yourself a clear context for the interpretation of your results. 
 
 Note: 
 You really need to think through, before you embark on your analysis, "if I see this, what will it mean?" 
@@ -243,7 +243,9 @@ Switch to RStudio
 
 Identify QC metrics that you will use, ahead of time if possible. 
 <br>
-Think back to our employee engagement example. 
+<br>
+Think back to our employee performance example. 
+<br>
 Do we expect any features of data collection to impact the quality of data that we get? 
 
 Note:
@@ -252,19 +254,18 @@ Rate of missingness is a big one, does it matter for your analysis whether or no
 +++
 
 #### Database format
-
-- Data types
-- How categorical variables are split 
+Think about:
+- Appropriate data types
 - Being able to easily query it!
-<br>
-<br>
-Try to design database to minimize wrangling. 
+- Minimizing wrangling
 
 Note:
 If you have any say in how the database that receives the data is designed, then use that to help you avoid as much tricky data wrangling as possible. 
 A data scientist should not also be a data engineer, in my opinion, it's just too much work for one person, but they should work closely together. 
 
 Export a small sample of what it looks like, take it through a draft of your pipeline and see what you can improve. 
+
+If you don't think about this last point ahead of time, you will be adding steps to your pipeline where you are formating your data in preparation for being able to dive into it. 
 
 +++
 
@@ -277,13 +278,21 @@ Export a small sample of what it looks like, take it through a draft of your pip
 ## Implementation phase 
 ##### Go to town! 
 
-+++?image=images/data-analysis-overview.002.jpeg
++++
 
-+++?image=images/data-analysis-overview.003.jpeg
+<img src="images/data-analysis-overview.002.jpeg" height="600"> 
 
-+++?image=images/data-analysis-overview.004.jpeg
++++
 
-+++?image=images/data-analysis-overview.005.jpeg
+<img src="images/data-analysis-overview.003.jpeg" height="600"> 
+
++++
+
+<img src="images/data-analysis-overview.004.jpeg" height="600"> 
+
++++
+
+<img src="images/data-analysis-overview.005.jpeg" height="600"> 
 
 ---
 
