@@ -1,4 +1,4 @@
-### How to build a data analysis pipeline
+### <font color="red"> How to build a data analysis pipeline </font>
 
 <br>
 #### Athena Hadjixenofontos, PhD 
@@ -321,7 +321,7 @@ Preliminary visualization of relationships between variables.
 
 +++
 
-### Dimensionality reduction
+### <spanDimensionality reduction
 - For multidimensional data, you have options:
 	- Use a decision tree to identify which variables are important
 	- Look at the correlation between all variables and use a metric to decide which to drop
