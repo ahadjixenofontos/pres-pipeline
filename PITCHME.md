@@ -348,11 +348,11 @@ The effect is even more pronounced in high-dimensional data, where your choices 
 
 <img src="images/dimensions_xkcd.png" height="500">
 <br>
-<span style="font-size:0.4em">xkcd.com</span>
+<span style="font-size:0.4em">xkcd.com/1524</span>
 
 +++
 
-Build a modular pipeline. 
+#### <font color="#008080"> Build a modular pipeline. </font>
 <br>
 Your choices of where to break up the various operations will impact the ease with which you or other researchers can repurpose your tools for other analyses.
 
