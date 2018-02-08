@@ -87,16 +87,12 @@ This is a great way to bring the picture into focus, hone in on what you really 
 +++
 
 > If I have seen further than others, it is by standing upon the shoulders of giants. 
-
-<br>
-> \- Sir Isaac Newton
+> : Sir Isaac Newton
 
 +++
 
 > If I asked my customers what they wanted, they would have said "a faster horse". 
-
-<br>
-> \- Henry Ford
+> : Henry Ford
 
 Note: 
 There is some art in how you form the question. You don't want it to be so general that it is meaningless, but you also don't want it to be so specific that it traps you inside a specific solution. 
