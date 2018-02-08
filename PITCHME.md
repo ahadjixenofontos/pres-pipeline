@@ -33,7 +33,7 @@ ahadjixenofontos@miami.edu
 <span style="color:black">2:</span> the interrelated conditions in which something exists or occurs
 
 Note:
-We hear the word context a lot. The historical context of the times, quotes being taken out of context, but at least for me, a deeper relationship with the word context didn't develop until I was about 22, and a first year graduate student. 
+We hear the word context a lot. The historical context of the times, quotes being taken out of context, but a deeper relationship with what that actually means is part of our objective today. 
 
 ---
 
@@ -54,7 +54,14 @@ Even though we know that interpretations of observations are only meaningful wit
 @title[Pipeline overview]
 
 Note:
+As anyone who's ever done research, whether in an academic context or in the R&D department of a company can tell you, there's a lot that has to happen before you get to a place where you can make inference. 
 
+A pipeline for your data analysis includes the following, very broadly defined stages:
+In the design phase, you sharpen the question, make sure you have what you need to answer it
+In the implementation phase, you dive in deep with the data, explore it, clean it, play with it and develop your intuition about it
+In the inference stage, you build models, evaluate them, create visualizations and communicate the insights
+
+The decisions you make along the way will be informed by the context of your data analysis. Two people can start at exactly the same place in terms of what data and methods are available to them and ask very similar questions, but the sight differences in their objectives will translate to different actions being appropriate at each stage. 
 
 ---
 
@@ -65,15 +72,32 @@ Note:
 
 +++?image=images/path-in-focus.jpeg
 
+Note: 
+The first thing you often do is read the literature. Where is the field? How have the questions you are interested in been asked before? 
+
+The question that you seek to answer with your data analysis exists in the context of a long history of other people who have asked very similar questions. What approaches did they take? What's different about now? What obstacles did they encounter and how did they overcome them? 
+
+This is a great way to bring the picture into focus, hone in on what you really actually are asking.
+
++++
+
 > If I have seen further than others, it is by standing upon the shoulders of giants. 
-> - Sir Isaac Newton
+> \- Sir Isaac Newton
 
-Note:
-Where is the field? What is your starting point? Have others asked similar questions before you? What was their process?
++++
 
-By reading the literature you will not only stand on the shoulders of giants in terms of choosing the appropriate methods, you will also develop an intuition for what can go wrong, and how to fix it. 
+> If I asked my customers what they wanted, they would have said "a faster horse". 
+> \- Henry Ford
 
-You will be better able to anticipate the obstacles that will come up. 
+Note: 
+There is some art in how you form the question. You don't want it to be so general that it is meaningless, but you also don't want it to be so specific that it traps you inside a specific solution. 
+
+In general, it is better to state the problem and keep that statement free of any methods or specific approaches. 
+
+It is the difference between:
+"How do my employees personalities influence their performance?"
+and
+"How can I use text data to predict my employees performance based on their personalities?"
 
 +++
 
@@ -83,19 +107,27 @@ A good question is:
 - answerable with the methods available to you 
 - falsifiable
 
+Note: 
+Reading the literature will take you from talking about employee personalities, in a very general and abstract sense, to thining about dimensions of personality that can be measured with the Five-Factor Personality Test and the other established and validated ways of measuring what you are interested in. 
+
+If there is no established way to measure what you are interested in you are either still thinking about it too abstractly, or you have one more step that you have to complete before you can embark on your analysis. 
+
+If you are using survey instruments check things like the face validity of your survey, which is usually judged by an expert, but also features such as the test-retest reliability and the internal consistency of the measures that are captured by the survey. 
+
 +++?image=images/notepad.jpeg
 
 Example:
 <br>
-- General domain: employee engagement
+- General domain: employee performance
 - Available data: unstructured text data from CVs, emails, performance reviews
-- Available methods: any, including NLP, regression etc.  
+- Available methods, infrastructure: any, unlimited
 
-####Can you think of an example of a good question?
+Note: 
+Let's spend a couple minutes thinking about this example. What else would you want to collect, if you had the freedom to? 
 
 +++
 
-<img src="images/diagonals.jpg">
+<img src="images/diagonals.jpeg">
 
 Beware of your assumptions. 
 <br>
@@ -104,9 +136,11 @@ They define the questions that you will think to ask.
 Note:
 My favorite example here is the birth of the field of neurogenesis. 
 For a long time, the dogma was that the last time that new neurons are born is during development.
-Neurogenesis is now an entire field
-And may have a role in learning and memory 
-For a long time people were completely blind to those neurons and their effects 
+A pair of researchers, Altman and Das, published evidence of adult neurogenesis in the best journals, in the 60's, but they were largely ignored by the scientific community. 
+
+That wasn't enough to overturn the dogma that adult brains don't make new neurons. More researchers published evidence in the 70's, and drama ensued. Careers were destroyed by a combination of criticism and lack of support. The very things that we hold in highest regard, not extending inference of findings based on model organisms to humans, worked against us in this case. The first studies were done in birds, and a very influential researcher Pasko Rakic published a paper in Science, convincing researchers that adult neurogenesis was restricted to birds and rodents, and didn't happen in primates. It took another 20 years for the field to recover. Neurogenesis is now an entire field, and we know that it may have a role in learning and memory. 
+
+Hindsight is 20-20. It's not that it's hard to keep an open mind, it's the idea of how far do you take a notion for it to require "an open mind?". What does the data say? Has there been data collected on adult neurogenesis in primates? That was a question that we maybe wouldn't even think to ask if not prompted by the studies in birds and rodents. 
 
 +++?image=images/camera.jpeg
 
@@ -115,14 +149,16 @@ Give yourself a point of reference.
 Note:
 Going back to our previous example with employee engagement based on employee personality, let's say that you came up with an awesome way to describe employee personality based on the text data that is available. 
 How do you know that the personality that you detected is indeed the true personality of that person? 
+(wait for their answer)
+
+Experimental scientists call these controls. How do you know that a high performer is a high perfomer? 
+Even more crucial if you have an intervention as part of your data. How do you know that the system you set up will produce a negative result when you expect a negative result and a positive one when you expect a positive result? If you see a negative result is it because the intervention, even when present, doesn't work or is it because the intervention wasn't actually present to begin with?
 
 +++ 
 
 Setting a baseline is easier in some cases than in others. 
 <br>
-Be deliberate and thorough. 
-<br>
-#### This is how you give yourself a clear context for the interpretation of your results. 
+But, this is how you give yourself a clear context for the interpretation of your results. 
 
 Note: 
 You really need to think through, before you embark on your analysis, "if I see this, what will it mean?" 
@@ -131,17 +167,21 @@ Can you bring that information into your analysis?
 
 This is also the purpose of a pilot study, where you can figure all of this out before spending lots of times and money on a big scale study that turns out to be inconclusive. 
 
+Be deliberate and thorough. 
+
 +++
 
 #### Seeing Black: Race, Crime, and Visual Processing
 
-#### The study
-
 N = 41
 <br>
-**Population studied:** white, male, UC Berkeley and Stanford university students
+**Population:**
 <br>
-**Approach:** expose participants to face stimuli, then object stimuli (took shape over 41 frames)
+white, male, UC Berkeley and Stanford university students
+<br>
+**Approach:**
+<br>
+subliminal exposure of participants to face stimuli for 30ms, then exposure to object stimuli
 
 Note:
 Psychology and the social sciences in general, are notorious for bad study design and as the fields that struggle with replication the most. They were the last to catch on and start using the scientific method, and with good reason! The number of variables that become relevant when we are talking about human behavior is intractable and the systems are complex. This is in contrast to systems that are deterministic, controlled by a small number of variables and can be modeled explicitly. Physicists and engineers actually have it easy, because they are the most likely to work with these systems in which you can model every component explicitly. 
@@ -161,7 +201,7 @@ object stimuli: 2 types object images (gun or knife) and (book or camera)
 
 #### The results
 
-<img src="seeing-black-results.png">
+<img src="images/seeing-black-results.png">
 What else could have generated these results?
 
 Note:
@@ -177,15 +217,14 @@ What influences attentional bias? How do you measure it?
 
 +++
 
-### Think it through. 
-
-+++
-
 #### Statistical power
 
 ... or the probability that you will be able to distinguish between a true effect of a certain size and chance. 
 <br>
-**Exercise:** plot power curves for a two-tailed t-test, using pwr in R
+<br>
+**Exercise:** 
+<br>
+Plot power curves for a two-tailed t-test, using pwr in R
 
 Note:
 Switch to RStudio
@@ -209,11 +248,26 @@ Rate of missingness is a big one, does it matter for your analysis whether or no
 - Data types
 - How categorical variables are split 
 - Being able to easily query it!
+<br>
+<br>
+Try to design database to minimize wrangling. 
 
 Note:
 If you have any say in how the database that receives the data is designed, then use that to help you avoid as much tricky data wrangling as possible. 
+A data scientist should not also be a data engineer, in my opinion, it's just too much work for one person, but they should work closely together. 
+
+Export a small sample of what it looks like, take it through a draft of your pipeline and see what you can improve. 
+
++++
+
+### Think it through. 
 
 ---
+
+@title[Implementation]
+
+## Implementation phase 
+##### Go to town! 
 
 +++?image=images/data-analysis-overview.002.jpeg
 
@@ -225,8 +279,6 @@ If you have any say in how the database that receives the data is designed, then
 
 ---
 
-@title[Implementation]
-
 Clean data is good data. 
 Sometimes cleaning data means throwing it all out. 
 There is no baby in this bathwater. 
@@ -234,19 +286,47 @@ Some of them will be a complete surprise to you, which is why it's really import
 
 +++
 
-Descriptive statistics
+### Descriptive statistics
+Check the distributions of all key variables. 
+	- Averages, standard deviation, range, frequency tables
+	- Outliers 
+	- Rates of missingness
+Drop observations if appropriate. 
+Preliminary visualization of relationships between variables.
+	- Scatterplots, boxplots, braplots, frequency tables 
 
 +++
 
-Preliminary relationships
+### Dimensionality reduction
+- For multidimensional data, you have options:
+	- Use a decision tree to identify which variables are important
+	- Look at the correlation between all variables and use a metric to decide which to drop
+	- Backward or forward feature selection if you are using regression
+	- Latent factor analysis
+	- Collapse the dimensions onto their major axes of variation
+
+Note:
+Random Forests are a special case of that first bullet. They are biased towards continuous variables, so you need to keep that in mind if you have binary or categorical variables that you expect will be important to keep. 
+
+The method you choose depends on the data that you have, and what you set as your priorities.
+Resulting dimensions are less interpretable. 
+
++++?image=images/ms-pca.jpg
 
 +++
 
-Dimensionality reduction
+### Take away:
+Your choice of how to deal with multiple dimensions will impact how the information is undestood and interpreted. 
+
+The effect is even more pronounced in high-dimensional data, where your choices will include which dimensions to highlight and which to ignore. 
+
++++?image=images/dimensions_xkcd.png
 
 +++
 
-Modular building
+Build a modular pipeline. 
+<br>
+Your choices of where to break up the various operations will impact the ease with which you or other researchers can repurpose your tools for other analyses.
 
 ---
 
@@ -262,6 +342,23 @@ My mom does this a lot. Undue inference.
 Won't be so obvious when you are dealing with things that are not intuitive. 
 
 Successful big tech and company culture or managerial styles
+
++++
+
+**Example**
+Some personality traits predict behaviors, to varying extents.
+
+**Message** 
+Resist the urge to fill in the blanks. 
+
+Note:
+In our employee personality and performance example, it would be a jump to go from talking about the traits that you have measured, infer behavior and then somehow try to link those behaviors to their performance! 
+
+If you found that employees with high individualism, which is the tendency to focus on oneself and one's personal goals, perform better at public presentations, it would be a leap to assume that it's because they prefer to engage in behaviors that make them stand out from others, even though that behavior is correlated with individualism in the literature. 
+
+Fortunately, leaps are also known as hypotheses, so you could devise a follow up study to see if that is indeed true. 
+
+Academics tend to care more about mechanism than business people. It's the difference between wanting to know WHY individualists perform better at public speaking, and only wanting to know THAT individualists perform better at public speaking - which is actionable information. 
 
 +++
 
