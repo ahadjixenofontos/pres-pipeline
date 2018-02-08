@@ -87,7 +87,7 @@ This is a great way to bring the picture into focus, hone in on what you really 
 +++
 
 > If I have seen further than others, it is by standing upon the shoulders of giants. 
->  						Sir Isaac Newton
+>  <br>						Sir Isaac Newton
 
 +++
 
