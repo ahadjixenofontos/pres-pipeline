@@ -182,7 +182,7 @@ Be deliberate and thorough.
 
 +++
 
-#### Seeing Black: Race, Crime, and Visual Processing
+#### <font color="#008080"> Seeing Black: </font> Race, Crime, and Visual Processing
 
 <br>
 <br>
