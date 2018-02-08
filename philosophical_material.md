@@ -120,3 +120,114 @@ What everyone who programs knows is that programming languages are much less amb
 We need to be very careful when we combine a question that want to ask of the data, a question which is formed in natural language with the programming required to implement the analysis that will hopefully get you to an answer. 
 
 There is much opportunity to make assumptions when translating from an ambiguous language to an unambiguous one. 
+
+
++++
+
+You assume/hope that your code implementation is correct
+Example of evolutionary biologist who retracted the paper
+
+---
+
++++
+
+Knockout mouse line where gene was knocked out from all tissues but turns out that some tissues still express that protein 
+Tool that you expect will work a certain way but doesn’t
+If you continue using it as if it does what you assume you’ll misinterpret the results 
+
++++
+
+Assumption that to keep someone’s heart beating you needed to cut the chest open and do t manually so for a long time we were unnecessarily cutting the chest open 
+That assumption was wrong 
+You can just do cpr 
+
++++
+
+Perception is limited to what our senses (and sensors we design) can perceive
+https://www.facebook.com/quartznews/videos/191332488127750/
+
++++
+
+Example of interpretation in the context of ascertainment bias
+
++++
+
+Cognitive biases. 
+Covered in multiple other sources. 
+
++++
+
+We categorize, that’s what we do 
+Based on general associations we’ve learned about those variables but they don’t always hold true 
+They are useful because testing all of them takes time and resources 
+Identify and test the key ones for your study 
+
+
+
+---
+
+@title[Barriers] 
+
++++?image=images/fast-train.jpeg
+
+We want to go fast and take shortcuts.
+Instant gratification.  
+
+
+
++++?image=images/inquisitive-kid.jpeg
+
+It's exhausting! Not humans' default state of being to be inquisitive about their biases.  
+
++++
+
+When you start diggint, you realize that there's always more to know! 
+More ways in which you can make your study less biased, more objective, more interpretable. 
+Where does it end? 
+I cannot help you with that. 
+
+Notice I didn't say "objective", I said "more objective". I don't know that untainted objectivity is attainable. 
+
++++
+
+If you truly want to let the data speak for itself, you need to get yourself out of the way. 
+Won't always be possible. And that's also (in some cases) okay. 
+
++++
+
+Develop your data analysis intuition. 
+Practice. 
+
+---
+
+@title[Miami-Dade County 311 data]
+
+
+---
+
+<br>
+My <span style="color:blue">words in color.</span>
+<br>
+
+---
+
+@title[Image in slide]
+
+<img src="images/bunny.jpg" width="150" height="150">
+<br>
+There's a bunny on this slide. 
+<br>
+
+---
+
+@title[Code slide]
+
+```
+import numpy as np
+
+dat = open('file.csv', 'r')
+emtpy = numpy.zeros(10)
+
+```
+@[1]
+@[2-4]

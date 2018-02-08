@@ -491,6 +491,18 @@ We have some intuition as to what that means now that we've done the power exerc
 
 +++
 
+<img src="images/george-box.jpg" height="200">
+
+> All models are wrong but some are useful. 
+> * George Box
+
++++
+
+> Any conclusion is only as sound as the model on which it is based.
+> * Prof. Diego Kuonen
+
++++
+
 #### <font color="#008080">  Machine learning </font>
 * Supervised learning algorithms 
 * Semisupervised learning
@@ -545,26 +557,27 @@ learning | fitting
 Note:
 Although I believe that arguing over whether classical statistics, including regression, is actually machine learning is a waste of time, I have found it useful to draw these parallels in the vocabulary used by these communities. 
 
-+++
+---
 
-<img src="images/george-box.png" height="200">
+@title[Visualization]
 
-> All models are wrong but some are useful. 
-> * George Box
+#### <font color="#008080">  Visualization </font>
 
-+++
-
-> Any conclusion is only as sound as the model on which it is based.
-> * Prof. Diego Kuonen
+How do you communicate uncertainty? 
+<br><br>
+How do you communicate all the decisions that you made along the way, that form the context for interpreting your results?
 
 +++
 
-Meta means after
-Meta analyses 
+#### <font color="#008080">  Elementary perceptual tasks </font>
+
+
+
+<span style="font-size:0.4em">Cleveland & McGill, 1984</span>
 
 +++
 
-Communicate uncertainty in your visualizations
+<img src="images/perception.png" height="150">
 
 ---
 
@@ -574,134 +587,41 @@ Communicate uncertainty in your visualizations
 
 @title[Biases and assumptions]
 
-We don't see things as they are, we see them as we are. 
--Anais Nin
+<img src="images/spotlight.png" height="200">
+> We don't see things as they are, we see them as we are. 
+> * Anais Nin
 
 
 +++
 
-Knockout mouse line where gene was knocked out from all tissues but turns out that some tissues still express that protein 
-Tool that you expect will work a certain way but doesn’t
-If you continue using it as if it does what you assume you’ll misinterpret the results 
+<img src="images/business-man.jpeg" height="150">
 
-+++
 
-Assumption that to keep someone’s heart beating you needed to cut the chest open and do t manually so for a long time we were unnecessarily cutting the chest open 
-That assumption was wrong 
-You can just do cpr 
-
-+++
-
-Perception is limited to what our senses (and sensors we design) can perceive
-https://www.facebook.com/quartznews/videos/191332488127750/
-
-+++
-
-Example of interpretation in the context of ascertainment bias
-
-+++
-
-Cognitive biases. 
-Covered in multiple other sources. 
-
-+++
-
-We categorize, that’s what we do 
-Based on general associations we’ve learned about those variables but they don’t always hold true 
-They are useful because testing all of them takes time and resources 
-Identify and test the key ones for your study 
-
-+++
-
-You assume/hope that your code implementation is correct
-Example of evolutionary biologist who retracted the paper
+Note:
+Culture of knowing. 
+Business vs science circles.
 
 ---
 
 @title[Bottom line]
 
-You don’t know what you don’t know
-But what you can know is that you don’t know
+You may not know 
+<br>
+what you don’t know,
+<br>
+but, what you can know
+<br>
+is that you don’t know
 
 Note:
-To be aware of your biases
-This goes against our culture
-Gap between business world
+Be aware, if not of your biases, at least of the fact that you have biases.
 
-What are you blind to? Easy to ask but difficult to answer because hindsight is 20/20
+What are you blind to? Easy to ask but difficult to answer because hindsight is 20/20.
 
-The point isn’t to catch yourself because it’s guaranteed that you won’t
-Try your best and be aware that “your way is not the best” even when you do become an expert 
-
+The point isn’t to catch yourself, to be adabtable, curious, inquisitive, persistent, and to always want to learn. 
 
 ---
 
-@title[Barriers] 
+Thank you
 
-+++?image=images/fast-train.jpeg
-
-We want to go fast and take shortcuts.
-Instant gratification.  
-
-+++?image=images/business-man.jpeg
-
-Culture of knowing. 
-Business vs science circles.
-
-+++?image=images/inquisitive-kid.jpeg
-
-It's exhausting! Not humans' default state of being to be inquisitive about their biases.  
-
-+++
-
-When you start diggint, you realize that there's always more to know! 
-More ways in which you can make your study less biased, more objective, more interpretable. 
-Where does it end? 
-I cannot help you with that. 
-
-Notice I didn't say "objective", I said "more objective". I don't know that untainted objectivity is attainable. 
-
-+++
-
-If you truly want to let the data speak for itself, you need to get yourself out of the way. 
-Won't always be possible. And that's also (in some cases) okay. 
-
-+++
-
-Develop your data analysis intuition. 
-Practice. 
-
----
-
-@title[Miami-Dade County 311 data]
-
-
----
-
-<br>
-My <span style="color:blue">words in color.</span>
-<br>
-
----
-
-@title[Image in slide]
-
-<img src="images/bunny.jpg" width="150" height="150">
-<br>
-There's a bunny on this slide. 
-<br>
-
----
-
-@title[Code slide]
-
-```
-import numpy as np
-
-dat = open('file.csv', 'r')
-emtpy = numpy.zeros(10)
-
-```
-@[1]
-@[2-4]
 
