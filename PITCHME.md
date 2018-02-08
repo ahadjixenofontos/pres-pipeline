@@ -346,7 +346,9 @@ The effect is even more pronounced in high-dimensional data, where your choices 
 
 +++
 
-<img src="images/dimensions_xkcd.png" height="550">
+<img src="images/dimensions_xkcd.png" height="500">
+<br>
+<span style="font-size:0.4em">xkcd.com</span>
 
 +++
 
