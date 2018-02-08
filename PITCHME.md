@@ -208,6 +208,7 @@ object stimuli: 2 types object images (gun or knife) and (book or camera)
 
 +++
 <img src="images/seeing-black-results.png" height="500" >
+<br>
 What else could have generated these results?
 
 Note:
