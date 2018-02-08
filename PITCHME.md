@@ -121,7 +121,7 @@ If you are using survey instruments check things like the face validity of your 
 
 +++?image=images/notepad.jpeg
 
-Example:
+<font color="#008080">Example: </font>	
 <br>
 - General domain: employee performance
 - Available data: unstructured text data from CVs, emails, performance reviews
