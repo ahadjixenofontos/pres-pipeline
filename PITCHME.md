@@ -574,7 +574,7 @@ You do need to communicate responsibly. Understaning how the human mind processe
 
 #### <font color="#008080">  Elementary perceptual tasks </font>
 
-<img src="images/tasks.png" height="250">
+<img src="images/tasks.png" height="350">
 
 <span style="font-size:0.4em">Cleveland & McGill, 1984</span>
 
@@ -587,7 +587,7 @@ It’s not that the less accurate ways in which we perceive information are bad,
 
 +++
 
-<img src="images/perception.png" height="150">
+<img src="images/perception.png" height="350">
 
 +++
 
@@ -615,7 +615,9 @@ What are the barriers to operating with a conscious awareness of your biases?
 
 +++
 
-<img src="images/business-man.jpeg" height="150">
+<img src="images/business-man.jpeg" height="350">
+
+Confidence and curiosity can co-exist. 
 
 Note:
 Culture of knowing. 
@@ -631,7 +633,7 @@ what you don’t know,
 <br>
 but, what you can know
 <br>
-is that you don’t know
+is that you don’t know.
 
 Note:
 Be aware, if not of your biases, at least of the fact that you have biases.
