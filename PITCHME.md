@@ -187,13 +187,9 @@ Be deliberate and thorough.
 
 N = 41
 <br>
-**Population:**
+**Population:** white, male, UC Berkeley and Stanford university students
 <br>
-white, male, UC Berkeley and Stanford university students
-<br>
-**Approach:**
-<br>
-subliminal exposure of participants to face stimuli for 30ms, then exposure to object stimuli
+**Approach:** subliminal exposure of participants to face stimuli for 30ms, then exposure to object stimuli
 
 Note:
 Psychology and the social sciences in general, are notorious for bad study design and as the fields that struggle with replication the most. They were the last to catch on and start using the scientific method, and with good reason! The number of variables that become relevant when we are talking about human behavior is intractable and the systems are complex. This is in contrast to systems that are deterministic, controlled by a small number of variables and can be modeled explicitly. Physicists and engineers actually have it easy, because they are the most likely to work with these systems in which you can model every component explicitly. 
@@ -207,12 +203,10 @@ In this study, a group of four researchers designed an experiment where they sou
 face stimuli: color photographs of 50 Black or 50 White young adult male faces, or no face/random lines stimulus for 30 ms
 object stimuli: 2 types object images (gun or knife) and (book or camera) 
 
-+++?image=images/guns.png
++++
+<img src=">images/guns.png">
 
 +++
-
-#### The results
-
 <img src="images/seeing-black-results.png">
 What else could have generated these results?
 
