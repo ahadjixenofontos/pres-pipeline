@@ -107,7 +107,7 @@ and
 +++
 
 A good question is:
-- informed by the literature
+<font color="#008080">-</font> informed by the literature
 - answerable with the data available to you
 - answerable with the methods available to you 
 - falsifiable
