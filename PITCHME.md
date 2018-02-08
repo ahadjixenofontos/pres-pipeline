@@ -361,7 +361,7 @@ Your choices of where to break up the various operations will impact the ease wi
 @title[Inference]
 
 ### Inference phase
-#### Choose your words carefully.
+#### <font color="#008080"> Choose your words carefully. </font>
 
 +++
 
@@ -370,8 +370,12 @@ Your choices of where to break up the various operations will impact the ease wi
 A parameter characterizes a population. 
 <br> 
 A statistic characterizes a sample.
-<br>
+<br><br>
 **Exercise:** 
+Take samples of varying size from a standard normal distribution to demonstrate the difference between a parameter and a point estimate. 
+
+Note: 
+Change to RStudio
 
 +++
 
@@ -380,16 +384,20 @@ Systematic differences between the population parameter and the sample estimate,
 
 +++
 
-Example of misplaced causality
-My mom does this a lot. Undue inference. 
+#### <font color="#008080"> Misplaced causality </font>
+
+**Example:**
 Won't be so obvious when you are dealing with things that are not intuitive. 
 
 Successful big tech and company culture or managerial styles
 
+Note:
+My mom does this a lot. She sees a 
+
 +++
 
 **Example**
-Some personality traits predict behaviors, to varying extents.
+Some personality traits predict do behaviors, but it's a leap to assume that this is the case without explicit evidence.
 
 #### <font color="#008080"> Take away: </font>
 Resist the urge to fill in the blanks. 
