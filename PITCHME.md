@@ -16,13 +16,9 @@ ahadjixenofontos@miami.edu
 ## <font color="#008080"> Roadmap </font>
 
 - What is context?
-- The stages of data analysis
 - Design
 - Implementation
-- Inference
-- Assumptions and bias 
-- Miami-Dade County 311 calls 
-
+- Inference and Visualization
 
 ---?image=images/bowl.jpg
 
@@ -400,8 +396,13 @@ Change to RStudio.
 
 #### <font color="#008080"> Statistical bias</font>
 *Systematic* differences between the population parameter and the sample estimate, introduced by the way a statistic is calculated. 
-<br><br>
-Types of bias:
+
+Note:
+A statistic is a mathematical expression that expresses a measure of an attribute of a sample, such as the mean. These functions are not always good estimators of the underlying population parameter, and they can introduce bias in your estimate. 
+
++++
+
+<font color="#008080">Types of bias:</font>
 * ascertainment bias
 * detection bias
 * funding bias
@@ -409,7 +410,6 @@ Types of bias:
 * recall bias
 
 Note:
-A statistic is a mathematical expression that expresses a measure of an attribute of a sample, such as the mean. These functions are not always good estimators of the underlying population parameter, and they can introduce bias in your estimate. 
 
 The errors are actually usually not due to the function itself, but due to the data that you feed it. 
 For example, acertainment bias is when your sample is not representative of the population that they are drawn from. When we were carrying out ascertainment for a study in multiple sclerosis, we did that through an MS clinic, so our sample was biased for people who would go to an MS clinic as opposed to a neurologist in a different department. 
@@ -494,12 +494,12 @@ We have some intuition as to what that means now that we've done the power exerc
 <img src="images/george-box.jpg" height="200">
 
 > All models are wrong but some are useful. 
-> * George Box
+> <br> <font color="#008080">George Box</font>
 
 +++
 
 > Any conclusion is only as sound as the model on which it is based.
-> * Prof. Diego Kuonen
+> <br> <font color="#008080">Prof. Diego Kuonen </font>
 
 +++
 
