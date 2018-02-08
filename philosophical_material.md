@@ -15,7 +15,24 @@ unused material
 1. Visualization decisions
 1. Sharing makes code better
 
---
+
+---?image=images/monastery.jpeg
+
+@title[Gender]
+
+Note:
+I'll start with two familiar examples, one is about gender and the other involves Margaret Atwood. They will serve to calibrate our intuition, because they are clearer to grasp, less ambiguous, than the ones we'll dive into when it comes to data analysis. 
+
+The first time I realized I didn't actually know what context really is was while volunteering at a local Miami non-profit. They graple with the nuances of context a lot, because their work includes conversations around gender.  
+
+The reason why context is especially important in gender conversations I think is illustrative. 
+In the context of a Catholic monastery in Colombia, deviations from gender norms are understood one way,
+
+---?image=images/miami-beach.jpeg
+
+Note: 
+ whereas in the context of South Beach, they are understood a different way. 
+---
 
 @title[Context is invisible]
 

@@ -7,10 +7,11 @@
 <br>
 ahadjixenofontos@miami.edu
 <br>
+
 ---
 
 @title[Roadmap]
-### Roadmap
+## Roadmap
 
 - Intuitive examples
 - The stages of data analysis
@@ -19,7 +20,7 @@ ahadjixenofontos@miami.edu
 - Decision-making for the analysis of Miami-Dade County 311 calls 
 
 
----?image=images/paper.jpeg
+---?image=images/bowl.jpg
 
 @title[Context]
 
@@ -27,29 +28,11 @@ ahadjixenofontos@miami.edu
 <br>
 *noun* | con·text
 <br>
-2: the interrelated conditions 
-<br>
-in which something exists or occurs
+1: the parts of a discourse that surround a word or passage and can throw light on its meaning
+2: the interrelated conditions in which something exists or occurs
 
 Note:
 We hear the word context a lot. The historical context of the times, quotes being taken out of context, but at least for me, a deeper relationship with the word context didn't develop until I was about 22, and a first year graduate student. 
-
-I'll start with two familiar examples, one is about gender and the other involves Margaret Atwood. They will serve to calibrate our intuition, because they are clearer to grasp, less ambiguous, than the ones we'll dive into when it comes to data analysis. 
-
----?image=images/monastery.jpeg
-
-@title[Gender]
-
-Note:
-The first time I realized I didn't actually know what context really is was while volunteering at a local Miami non-profit. They graple with the nuances of context a lot, because their work includes conversations around gender.  
-
-The reason why context is especially important in gender conversations I think is illustrative. 
-In the context of a Catholic monastery in Colombia, deviations from gender norms are understood one way,
-
----?image=images/miami-beach.jpeg
-
-Note: 
- whereas in the context of South Beach, they are understood a different way. 
 
 ---
 
