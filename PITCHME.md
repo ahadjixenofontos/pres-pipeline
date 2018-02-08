@@ -341,7 +341,7 @@ Resulting dimensions are less interpretable.
 
 <img src="images/cookies-pca.png" height="550">
 <br>
-<span>By Reddit user everest4ever </span>
+<span style="font-size:0.4em">By Reddit user everest4ever </span>
 
 Note:
 He says:
@@ -396,23 +396,24 @@ Change to RStudio
 
 +++
 
-#### <font color="#008080"> Statistical bias:</font>
-Systematic differences between the population parameter and the sample estimate, introduced by the way a statistic is calculated. 
+#### <font color="#008080"> Statistical bias</font>
+*Systematic* differences between the population parameter and the sample estimate, introduced by the way a statistic is calculated. 
 
 +++
 
 #### <font color="#008080"> Misplaced causality </font>
 
 **Example:**
-Successful big tech and company culture or managerial styles
+Do managerial styles of tech giants predict company success? 
+<br>
+What assumptions do we make by asking this question? 
 
 Note:
-My mom does this a lot. She sees a 
-
-Or 
 Won't be so obvious when you are dealing with things that are not intuitive. 
 
 +++
+
+#### <font color="#008080"> Misplaced causality </font>
 
 **Example**
 Some personality traits predict do behaviors, but it's a leap to assume that this is the case without explicit evidence.
@@ -435,6 +436,21 @@ Academics tend to care more about mechanism than business people. It's the diffe
 <br>
 xkcd.com/552
 
+Note:
+Even when there is a measured correlation, it says nothing about causation. 
+The criteria for causation are very strict. 
+Epidemiologists use the Hill criteria, which include things like the strength of association between the two variables, consistent association, specificity, temporality, dose response, plausibility of the mechanism, coherence with the evidence known so far, or analogy to an established risk factor
+
++++
+
+#### <font color="#008080"> Inferential statistics </font>
+Build the appropriate model, depending on:
+* types of variables
+* relationships between observations
+* distributions of variables
+* sample size
+* correlations between variables
+
 +++
 
 #### <font color="#008080"> Statistical significance </font>
@@ -444,14 +460,30 @@ It doesn't have to do with how important the finding is.
 
 <img src="images/pvalue.png" height="200">
 
+Note:
+
+When we talk about inference, we always bump into a discussion of statistical significance. We have some intuition as to what that means now that we've done the power exercise. 
+
 +++
 
-Meta means after
-Meta analyses 
+#### <font color="#008080">  Machine learning </font>
+* Supervised learning algorithms (regression included!)
+* Semisupervised learning
+* Unsupervised learning
+* Reinforcement learning
+
+Note:
+Supervised learning models are trained with inputs for which the outputs are known. 
+
+All machine learning algorithms have the objective of minimizing the error, optimizing a loss function  
 
 +++
 
-Machine learning
+#### <font color="#008080">  Translation</font>
+In machine learning:
+* A dependent variable is called a label. 
+* A variable is called a feature. 
+* A transformation is called feature creation. 
 
 +++
 
@@ -460,6 +492,15 @@ Machine learning
 > All models are wrong but some are useful. 
 > * George Box
 
++++
+
+> Any conclusion is only as sound as the model on which it is based.
+> * Prof. Diego Kuonen
+
++++
+
+Meta means after
+Meta analyses 
 
 +++
 
