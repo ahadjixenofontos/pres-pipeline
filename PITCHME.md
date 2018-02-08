@@ -301,25 +301,25 @@ The goal of quality control is to <font color="#008080"> gain trust in your data
 Follow the bread crumbs.<br> 
 <img src="images/bread-crumbs.jpeg" height="300">
 <br>
-Some of the clues that your data is unreliable may be difficult to uncover.
+Some of the clues that your data are unreliable may be difficult to uncover.
 
 Note: 
 Data is messy. That's okay. It's not a reflection on you (well it may be, if you didn't take the design phase seriously) and in any case, you want to be the one to find out 
 
 +++
 
-### Descriptive statistics
-Check the distributions of all key variables. 
-	- Averages, standard deviation, range, frequency tables
-	- Outliers 
-	- Rates of missingness
-Drop observations if appropriate. 
-Preliminary visualization of relationships between variables.
-	- Scatterplots, boxplots, braplots, frequency tables 
+### <font color="#008080"> Descriptive statistics </font>
+* Check the distributions of all key variables. 
+	* Averages, standard deviation, range, frequency tables
+	* Outliers 
+	* Rates of missingness
+* Drop observations if appropriate. 
+* Preliminary visualization of relationships between variables.
+	* Scatterplots, boxplots, braplots, frequency tables 
 
 +++
 
-### <spanDimensionality reduction
+### <font color="#008080"> Dimensionality reduction </font>
 - For multidimensional data, you have options:
 	- Use a decision tree to identify which variables are important
 	- Look at the correlation between all variables and use a metric to decide which to drop
