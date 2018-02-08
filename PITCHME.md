@@ -298,10 +298,9 @@ If you don't think about this last point ahead of time, you will be adding steps
 The goal of quality control is to <font color="#008080"> gain trust in your data </font>. 
 
 +++
-<br>
-<font color="white">Follow the bread crumbs.  </font>	
-<img src="images/bread-crumbs.jpeg">
-<font color="white" >Some of the clues that your data is unreliable may be difficult to uncover. </font>	
+Follow the bread crumbs. 
+<img src="images/bread-crumbs.jpeg" height="300">
+Some of the clues that your data is unreliable may be difficult to uncover.
 
 Note: 
 Data is messy. That's okay. It's not a reflection on you (well it may be, if you didn't take the design phase seriously) and in any case, you want to be the one to find out 
