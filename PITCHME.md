@@ -1,11 +1,11 @@
 ### <font color="#008080"> How to build a data analysis pipeline </font>
 
 <br>
-<font size=14>Athena Hadjixenofontos, PhD </font>
+<font size="14">Athena Hadjixenofontos, PhD </font>
 <br>
-<font size=10>Director of Engagement</font>
+<font size="10">Director of Engagement</font>
 <br>
-<font size=10>Center for Computational Science</font>
+<font size="10">Center for Computational Science</font>
 <br><br>
 ahadjixenofontos@miami.edu
 <br>
