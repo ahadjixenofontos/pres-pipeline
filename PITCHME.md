@@ -405,7 +405,7 @@ Change to RStudio
 
 **Example:**
 Do managerial styles of tech giants predict company success? 
-<br>
+<br><br>
 What assumptions do we make by asking this question? 
 
 Note:
@@ -415,9 +415,21 @@ Won't be so obvious when you are dealing with things that are not intuitive.
 
 #### <font color="#008080"> Misplaced causality </font>
 
-**Example**
+**Example:**
 Some personality traits predict do behaviors, but it's a leap to assume that this is the case without explicit evidence.
 
++++
+
+<img src="images/correlation.png" height="300">
+<br>
+<span style="font-size:0.4em"> xkcd.com/552 </span>
+
+Note:
+Even when there is a measured correlation, it says nothing about causation. 
+The criteria for causation are very strict. 
+Epidemiologists use the Hill criteria, which include things like the strength of association between the two variables, consistent association, specificity, temporality, dose response, plausibility of the mechanism, coherence with the evidence known so far, or analogy to an established risk factor
+
++++
 #### <font color="#008080"> Take away: </font>
 Resist the urge to fill in the blanks. 
 
@@ -432,19 +444,8 @@ Academics tend to care more about mechanism than business people. It's the diffe
 
 +++
 
-<img src="images/correlation.png" height="400">
-<br>
-xkcd.com/552
-
-Note:
-Even when there is a measured correlation, it says nothing about causation. 
-The criteria for causation are very strict. 
-Epidemiologists use the Hill criteria, which include things like the strength of association between the two variables, consistent association, specificity, temporality, dose response, plausibility of the mechanism, coherence with the evidence known so far, or analogy to an established risk factor
-
-+++
-
 #### <font color="#008080"> Inferential statistics </font>
-Build the appropriate model, depending on:
+Which modeling approach is appropriate depends on:
 * types of variables
 * relationships between observations
 * distributions of variables
@@ -467,23 +468,48 @@ When we talk about inference, we always bump into a discussion of statistical si
 +++
 
 #### <font color="#008080">  Machine learning </font>
-* Supervised learning algorithms (regression included!)
+* Supervised learning algorithms 
 * Semisupervised learning
 * Unsupervised learning
 * Reinforcement learning
 
 Note:
+Machine learning is also a type of modeling, which has been around since the 1950s. Frank Rosenblatt's perceptron, which is an algorithm for learning a binary classifier, was conceived in 1957. 
+
 Supervised learning models are trained with inputs for which the outputs are known. 
 
-All machine learning algorithms have the objective of minimizing the error, optimizing a loss function  
+All machine learning algorithms have the objective of minimizing the error, optimizing a loss function, which if you are familiar with regression you might draw some parallels to minimizing the sums of squares of the residuals. 
+
++++
+
+#### <font color="#008080">  Machine learning: </font> pros and cons
+
+Explosion in ML is connected to both availability of data, and improvements in technology. 
+<br><br>
+Extracted features are difficult to interpret.  
+
+Note:
+In the context of the times, the explosion in the popularity of ML is linked to both the data and the technology. 
+
+It's great, and it's not going to solve all our problems. One issue that you need to consider before choosing a ML algorithm for your problem is how difficult it is to interpret the features that are extracted. 
+It's the price to pay for having no explicit rules that are programmed by the human into how to make the decisions. On one hand you can model observations in much more detail, on the other hand it's really difficult to explain why, other than simply observing that it works. 
 
 +++
 
 #### <font color="#008080">  Translation</font>
-In machine learning:
-* A dependent variable is called a label. 
-* A variable is called a feature. 
-* A transformation is called feature creation. 
+Machine learning | Statistics
+---|---
+label | dependent variable
+feature | variable 
+feature creation |  transformation
+weights | parameters
+network, graphs | model
+learning | fitting
+
+<span style="font-size:0.4em"> Some of the translations credited to Robert Tibshirani, Stanford. </span>
+
+Note:
+Although I believe that arguing over whether classical statistics, including regression, is actually machine learning is a waste of time, I have found it useful to draw these parallels in the vocabulary used by these communities. 
 
 +++
 
