@@ -19,6 +19,7 @@ ahadjixenofontos@miami.edu
 - Design
 - Implementation
 - Inference and Visualization
+- Major take away messages
 
 ---?image=images/bowl.jpg
 
@@ -42,12 +43,10 @@ Context has consequences
 for the interpretation of an observation. 
 
 Note:
-So context has consequences for the interpretation of an observation, which I think is the first layer of this deep onion we are peeling today.
+Example of how the same action would be interpreted differently in different cultures. 
 
 Science is all about the interpretation of observations. 
-We think of it as an objective truth, we see numbers and we assume that since something is quantified it must be unbiased. 
-Even though we know that interpretations of observations are only meaningful within a specific context.  
-
+We think of it as an objective truth, we see numbers and we assume that since something is quantified it must be unbiased, even though we know that interpretations of observations are only meaningful within a specific context.  
 
 ---
 <img src="images/data-analysis-overview.001.jpeg" height="550">
@@ -58,9 +57,10 @@ Note:
 As anyone who's ever done research, whether in an academic context or in the R&D department of a company can tell you, there's a lot that has to happen before you get to a place where you can make inference. 
 
 A pipeline for your data analysis includes the following, very broadly defined stages:
-In the design phase, you sharpen the question, make sure you have what you need to answer it
-In the implementation phase, you dive in deep with the data, explore it, clean it, play with it and develop your intuition about it
-In the inference stage, you build models, evaluate them, create visualizations and communicate the insights
+In the design phase, you sharpen the question, make sure you have what you need to answer it.
+In the implementation phase, you dive in deep with the data, explore it, clean it, play with it and develop your intuition about it.
+In the inference stage, you build models, evaluate them, create visualizations and communicate the insights.
+These are iterative and connect to each other in ways that this diagram ignores. 
 
 The decisions you make along the way will be informed by the context of your data analysis. Two people can start at exactly the same place in terms of what data and methods are available to them and ask very similar questions, but the sight differences in their objectives will translate to different actions being appropriate at each stage. 
 
@@ -141,24 +141,27 @@ That wasn't enough to overturn the dogma that adult brains don't make new neuron
 
 Hindsight is 20-20. It's not that it's hard to keep an open mind, it's the idea of how far do you take a notion for it to require "an open mind?". What does the data say? Has there been data collected on adult neurogenesis in primates? That was a question that we maybe wouldn't even think to ask if not prompted by the studies in birds and rodents. 
 
++++
 
-+++?image=images/gage-neurogenesis.png
+<img src="images/gage-neurogenesis.png" height="350">
 
 Note:
 In this paper from 1995, a group of researchers looked at the dentate gyrus, which is a region of the hippocampus that undergoes neurogenesis. 
 They show that cells isolated from that region can be cultured in vitro, and they can survive, proliferate and express neuronal and glial markers. They also labelled the cultured cells so that they could track them, and transplanted them back in the brain of a rat. Two months later they found labelled cells that had matured and differentiated into neurons. 
 
-+++?image=images/camera.jpeg
++++
+
+<img src="images/camera.jpeg" height="300">
 
 Give yourself a point of reference. 
 
 Note:
-Going back to our previous example with employee engagement based on employee personality, let's say that you came up with an awesome way to describe employee personality based on the text data that is available. 
+Going back to our previous example with employee performance based on employee personality, let's say that you came up with an awesome way to describe employee personality based on the text data that is available. 
 How do you know that the personality that you detected is indeed the true personality of that person? 
 (wait for their answer)
 
 Experimental scientists call these controls. How do you know that a high performer is a high perfomer? 
-Even more crucial if you have an intervention as part of your data. How do you know that the system you set up will produce a negative result when you expect a negative result and a positive one when you expect a positive result? If you see a negative result is it because the intervention, even when present, doesn't work or is it because the intervention wasn't actually present to begin with?
+Even more crucial if you have an intervention as part of your data. How do you know that the system you set up will produce a negative result when you expect a negative result and a positive one when you expect a positive result? If you see a negative result, how do you know that it is because of the intervention, and not because the intervention wasn't actually present to begin with, the way that you assumed it was?
 
 +++ 
 
@@ -170,9 +173,9 @@ It is <font color="#008080">essential</font> in giving yourself a clear context 
 Note: 
 You really need to think through, before you embark on your analysis, "if I see this, what will it mean?" 
 Do you need additional information to be able to interpret your observation? 
-Can you bring that information into your analysis? 
+Can you bring that information into your analysis before you get too deep in the mud of an approach, before you get to a point where it will be difficult to change your approach? 
 
-This is also the purpose of a pilot study, where you can figure all of this out before spending lots of times and money on a big scale study that turns out to be inconclusive. 
+This is the purpose of a pilot study, where you can figure all of this out before spending lots of time and money on a big-scale study that turns out to be inconclusive because of how you designed it. 
 
 Be deliberate and thorough. 
 
@@ -210,13 +213,18 @@ What else could have generated these results?
 Note:
 After subliminal exposure to Black face primes, fewer frames were required to detect crime-relevant objects in comparison with crime-irrelevant objects t(13) = 2.96, p = 0.01
 
-Were all the images equal in 
-
+Were all the images equal in all possible ways? 
 Did the photographs have more angry faces in one group than in the other? 
 Other differences? Better dressed? Different backgrounds?
 
 Was it a difference in attentional bias rather than a true difference in visual processing? 
 What influences attentional bias? How do you measure it?
+
+As you see from this example, it's really easy to want to extend inference about causal relationships between prejudice and perception of crime-related objects, but there are actually quite a few bridges to build and cross before you can do that. 
+
+In this case, the researchers did a really good job of designing the study so that they can address all of these concerns, maximizing their credibility. 
+
+Figure out what the weaknesses of your design are, and either do something about them, or consiously decide that it's not feasible to address them. Consciously. 
 
 +++
 
@@ -230,7 +238,17 @@ What influences attentional bias? How do you measure it?
 Plot power curves for a two-tailed t-test, using pwr in R
 
 Note:
-Switch to RStudio
+One major, common pitfall in study design is to design an underpowered study. This is actually, usually, a function of available resources, because it often turns out that you should increase your sample size to the largest that your resources allow. 
+
+Even if you have limited resources - and maybe especially if you have limited resources - you need to know whether the investment is worth your time. 
+
+What do you think statistical power depends on?(wait for their answer)
+
+(Draw out a normal distribution, call the mean H0, and also draw out the distribution of means under the alternative hypothesis. Show them the areas under the curve, connecting them to what they represent and to what they are called.)
+
+Let's look at the relationship between the four variables: power, sample size, significance level, and effect size. 
+
+Switch to RStudio and code-along power.R
 
 +++
 
@@ -244,7 +262,15 @@ Think back to our employee performance example.
 Do we expect any features of data collection to impact the quality of data that we get? 
 
 Note:
-Rate of missingness is a big one, does it matter for your analysis whether or not you have lots of missing data? Does it indicate that something went wrong with the rest of the data that belongs to that same observation or are all values for that observation independent? 
+When you make a power calculation you are essentially deciding what kinds of results you would believe, what effect sizes can be reliably detected. 
+
+The reliability of your results doesn't only depend on how well powered your study was. It also depends on the quality of your data. 
+
+Rate of missingness is a often an important QC measures, so ask yourself does it matter for your analysis whether or not you have lots of missing data? Does it indicate that something went wrong with the rest of the data that belongs to that same observation or variable or are all values for that observation or variable independent? 
+
+The nature of your data will determine what the appropriate QC measures are. In genomic data, we have a well-established list of QC measures, and everybody who wants to be taken seriously either follows them or provides logical, detailed reasons why those measures were not appropriate for their study. 
+
+Look in the literature, you are probably not the first person to ever work with this type of data, and it'll save you lots of headache to see how others have established trust in their data. 
 
 +++
 
@@ -258,9 +284,9 @@ Note:
 If you have any say in how the database that receives the data is designed, then use that to help you avoid as much tricky data wrangling as possible. 
 A data scientist should not also be a data engineer, in my opinion, it's just too much work for one person, but they should work closely together. 
 
-Export a small sample of what it looks like, take it through a draft of your pipeline and see what you can improve. 
+Export a small sample of what it looks like, take it through a draft of your pipeline and see what you can improve about how the data is stored. 
 
-If you don't think about this last point ahead of time, you will be adding steps to your pipeline where you are formating your data in preparation for being able to dive into it. 
+If you don't think about this last point ahead of time, you will be adding steps to your pipeline where you are formating your data in preparation for being able to dive into it. Adding steps also adds opportunity for error. 
 
 +++
 
@@ -293,6 +319,13 @@ If you don't think about this last point ahead of time, you will be adding steps
 
 The goal of quality control is to <font color="#008080"> gain trust in your data </font>. 
 
+Note:
+We spoke about this a little bit in the context of designing your study. Now we're at the stage where you're actually doing it, and here is where you have a great opportunity to test out your assumptions of what "good quality measures" are, and see whether you can work with the data that you have vs. whether it's of such low quality that it's unusable. 
+
+Bad quality data is an extremely common problem. It doesn't matter how "big" your data is, if it's of low quality. 
+
+Text data are another example of where the appropriate QC measures depends on the objective of your study. 
+
 +++
 Follow the bread crumbs.<br> 
 <img src="images/bread-crumbs.jpeg" height="300">
@@ -300,7 +333,7 @@ Follow the bread crumbs.<br>
 Some of the clues that your data are unreliable may be difficult to uncover.
 
 Note: 
-Data is messy. That's okay. It's not a reflection on you (well it may be, if you didn't take the design phase seriously) and in any case, you want to be the one to find out 
+Data is messy. That's okay. It's not a reflection on you (well it may be, if you didn't take the design phase seriously). In any case, you want to be the one to discover the limitations of your study, rather than others when they are looking at your design, data and results. Even worse, if you are in a corporate environment and your results are used to make decisions, not having a solid understanding of the weaknesses can lead to decisions that will only appear to be based on data, when in fact they are based on misinterpreted data.  
 
 +++
 
@@ -310,6 +343,9 @@ Data is messy. That's okay. It's not a reflection on you (well it may be, if you
 * Drop observations if appropriate. 
 * Preliminary visualization of relationships between variables.
 	* Scatterplots, boxplots, barplots
+
+Note:
+If they don't have a solid idea of the types of variables and how to treat them statistically, go over the basics with them on a board. 
 
 +++
 
@@ -510,9 +546,9 @@ We have some intuition as to what that means now that we've done the power exerc
 * Reinforcement learning
 
 Note:
-Machine learning is also a type of modeling, which has been around since the 1950s. Frank Rosenblatt's perceptron, which is an algorithm for learning a binary classifier, was conceived in 1957. 
+Machine learning is also a way to build models based on your data. Some of the earliest algorithms have been around since the 1950s. Frank Rosenblatt's perceptron, which is an algorithm for learning a binary classifier, was conceived in 1957. 
 
-How do you choose which suits your data?
+How do you choose which suits your data and your objectives?
 
 Supervised learning models are trained with inputs for which the outputs are known. They include regression, classification, prediction and gradient boosting. 
 
@@ -621,7 +657,12 @@ Confidence and curiosity can co-exist.
 
 Note:
 Culture of knowing. 
-Business vs science circles.
+Business vs science circles. Business circles value confidence and attitudes of certainty "I know what's going on here and I can confidently take action based on that knowledge." 
+Science circles value caution and an accurate portrayal of the uncertainty in the data, the sources of error, sources of bias, and limitations of the study. These are fundamentally different ways of being. 
+
+It's part of human nature to want certainty, and it's just not the way that science works. You need to be comfortable with the fuzzy and the unknown. 
+
+You can't have an ego when you work with data, the danger is that it will overshadow what the data actually say.  
 
 ---
 
